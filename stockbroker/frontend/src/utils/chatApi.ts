@@ -38,14 +38,16 @@ export const updateState = async (
   });
 };
 
-export const sendMessage = async (params: {
+export interface MessageParams {
   threadId: string;
   assistantId: string;
   message: string | null;
   model: string;
   userId: string;
   systemInstructions: string;
-}) => {
+}
+
+export const sendMessage = async (params: MessageParams) => {
   const client = createClient();
 
   let input: Record<string, any> | null = null;

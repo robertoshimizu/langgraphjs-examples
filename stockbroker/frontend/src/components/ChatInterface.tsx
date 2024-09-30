@@ -12,6 +12,7 @@ import {
   createAssistant,
   createThread,
   getThreadState,
+  MessageParams,
   sendMessage,
 } from "../utils/chatApi";
 import { ASSISTANT_ID_COOKIE } from "@/constants";
@@ -56,6 +57,8 @@ export default function ChatInterface() {
       const { thread_id } = await createThread();
       setThreadId(thread_id);
       setAssistantId(assistantId);
+      console.log("Thread ID:", thread_id);
+      console.log("Assistant ID:", assistantId);
     };
 
     initializeChat();
@@ -89,14 +92,17 @@ export default function ChatInterface() {
       setThreadState(undefined);
       setGraphInterrupted(false);
       setAllowNullMessage(false);
-      const response = await sendMessage({
+
+      const params: MessageParams = {
         threadId,
         assistantId,
         message,
         model,
         userId,
         systemInstructions,
-      });
+      };
+      console.log("Sending message:", params);
+      const response = await sendMessage(params);
 
       for await (const chunk of response) {
         handleStreamEvent(chunk, setMessages);
@@ -104,6 +110,7 @@ export default function ChatInterface() {
 
       // Fetch the current state of the thread
       const currentState = await getThreadState(threadId);
+      console.log("Current state:", currentState);
       setThreadState(currentState);
       if (currentState.next.length) {
         setGraphInterrupted(true);
