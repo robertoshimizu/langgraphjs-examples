@@ -47,7 +47,44 @@ export default function Message({
           toolCalls.map((toolCall) => (
             <ToolCall key={toolCall.id} {...toolCall} />
           ))}
-        {isBot ? <Markdown>{text}</Markdown> : text}
+        {isBot ? (
+          // Enhanced handling for different data types
+          (() => {
+            if (text === undefined || text === null) {
+              return null;
+            }
+            
+            if (typeof text === 'string') {
+              return text.trim() ? (
+                <Markdown>{text}</Markdown>
+              ) : (
+                <span>{text}</span>
+              );
+            } 
+            
+            // If text is an object, render it as JSON
+            if (typeof text === 'object') {
+              return (
+                <ReactJson
+                  displayObjectSize={false}
+                  style={{ backgroundColor: "transparent" }}
+                  displayDataTypes={false}
+                  quotesOnKeys={false}
+                  enableClipboard={false}
+                  name={false}
+                  src={text as any}
+                  theme="tomorrow"
+                />
+              );
+            }
+            
+            // For any other type, convert to string
+            return <span>{String(text)}</span>;
+          })()
+        ) : (
+          // For user messages, simply convert to string safely
+          <span>{typeof text === 'string' ? text : JSON.stringify(text)}</span>
+        )}
       </>
     );
   }
