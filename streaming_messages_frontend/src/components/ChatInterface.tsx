@@ -40,7 +40,7 @@ export default function ChatInterface() {
       let assistantId = getCookie(ASSISTANT_ID_COOKIE);
       if (!assistantId) {
         const assistant = await createAssistant(
-          process.env.NEXT_PUBLIC_LANGGRAPH_GRAPH_ID as string
+          process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID as string
         );
         assistantId = assistant.assistant_id as string;
         setCookie(ASSISTANT_ID_COOKIE, assistantId);

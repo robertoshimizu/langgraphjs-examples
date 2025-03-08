@@ -17,11 +17,15 @@ const config = {
 const stream = graph.streamEvents(input, config);
 
 for await (const event of stream) {
-  console.dir(
-    {
-      event: event.event,
-      data: event.data,
-    },
-    { depth: 3 }
-  );
+  if ((event.event === "on_chain_start") || (event.event === "on_chain_end")) {
+    console.dir(
+      {
+        event: event.event,
+        data: event.data,
+      },
+      { depth: 5 }
+    );
+    continue;
+  }
+  
 }

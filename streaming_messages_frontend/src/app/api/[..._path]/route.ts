@@ -33,7 +33,7 @@ async function handleRequest(req: NextRequest, method: string) {
     }
 
     const res = await fetch(
-      `${process.env.LANGGRAPH_API_URL}/${path}${queryString}`,
+      `${process.env.NEXT_PUBLIC_LANGGRAPH_API_URL}/${path}${queryString}`,
       options
     );
 
