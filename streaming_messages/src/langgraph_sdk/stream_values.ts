@@ -16,7 +16,7 @@ const assistantId = assistant.assistant_id;
 const input = {
   messages: {
     role: "user",
-    content: "What is the current stock price of $AAPL?",
+    content: "Bono Vox",
   },
 };
 

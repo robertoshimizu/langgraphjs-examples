@@ -15,7 +15,7 @@ const assistantId = assistant.assistant_id;
 const input = {
   messages: {
     role: "user",
-    content: "What is the current stock price of $AAPL?",
+    content: "John Lennon",
   },
 };
 
@@ -25,8 +25,11 @@ const stream = client.runs.stream(threadId, assistantId, {
 });
 
 for await (const event of stream) {
-  console.log({
-    event: event.event,
-    data: event.data,
-  });
+  console.dir(
+    {
+      event: event.event,
+      data: event.data,
+    },
+    { depth: 5 }
+  );
 }

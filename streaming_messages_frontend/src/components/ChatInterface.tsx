@@ -24,7 +24,8 @@ export default function ChatInterface() {
   const [threadId, setThreadId] = useState<string | null>(null);
   const [assistantId, setAssistantId] = useState<string | null>(null);
   const [model, setModel] = useState<Model>("gpt-4o-mini" as Model);
-  const [streamMode, setStreamMode] = useState<StreamMode>("messages");
+  // Here we set the stream mode and strategy to show info in UI
+  const [streamMode, setStreamMode] = useState<StreamMode>("updates");
   const [userId, setUserId] = useState<string>("");
   const [systemInstructions, setSystemInstructions] = useState<string>("");
   const [isLoading, setIsLoading] = useState(false);
@@ -37,15 +38,23 @@ export default function ChatInterface() {
 
   useEffect(() => {
     const initializeChat = async () => {
-      let assistantId = getCookie(ASSISTANT_ID_COOKIE);
-      if (!assistantId) {
+      // let assistantId = getCookie(ASSISTANT_ID_COOKIE);
+      // if (!assistantId) {
+      //   const assistant = await createAssistant(
+      //     process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID as string
+      //   );
+      //   assistantId = assistant.assistant_id as string;
+      //   // setCookie(ASSISTANT_ID_COOKIE, assistantId);
+      //   setAssistantId(assistantId);
+      // }
+
         const assistant = await createAssistant(
           process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID as string
         );
-        assistantId = assistant.assistant_id as string;
-        setCookie(ASSISTANT_ID_COOKIE, assistantId);
-        setAssistantId(assistantId);
-      }
+
+      const assistantId = assistant.assistant_id as string;
+        // setCookie(ASSISTANT_ID_COOKIE, assistantId);
+      setAssistantId(assistantId);
 
       const { thread_id } = await createThread();
       setThreadId(thread_id);
