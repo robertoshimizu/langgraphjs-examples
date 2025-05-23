@@ -1,16 +1,16 @@
 import { ToolNode } from "@langchain/langgraph/prebuilt";
 import {
   END,
-  MessagesAnnotation,
   START,
   StateGraph,
+  Annotation,
 } from "@langchain/langgraph";
-import { AIMessage } from "@langchain/core/messages";
+import { AIMessage, HumanMessage, BaseMessage } from "@langchain/core/messages";
 import { ChatOpenAI } from "@langchain/openai";
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
 
 const llm = new ChatOpenAI({
-  model: "gpt-4o",
+  model: "gpt-4o-mini",
   temperature: 0,
 });
 
@@ -21,15 +21,31 @@ const tools = [webSearchTool];
 
 const toolNode = new ToolNode(tools);
 
-const callModel = async (state: typeof MessagesAnnotation.State) => {
-  const { messages } = state;
+// State annotation that accepts just text input
+const TextInputAnnotation = Annotation.Root({
+  input: Annotation<string>({
+    reducer: (x, y) => y ?? x ?? "",
+    default: () => "",
+  }),
+  messages: Annotation<BaseMessage[]>({
+    reducer: (x, y) => y ?? x ?? [],
+    default: () => [],
+  }),
+});
+
+const callModel = async (state: typeof TextInputAnnotation.State) => {
+  const { input, messages } = state;
+  
+  // On first call, convert input to HumanMessage
+  const currentMessages = messages.length === 0 ? [new HumanMessage(input)] : messages;
 
   const llmWithTools = llm.bindTools(tools);
-  const result = await llmWithTools.invoke(messages);
-  return { messages: [result] };
+  const result = await llmWithTools.invoke(currentMessages);
+
+  return { messages: [...currentMessages, result] };
 };
 
-const shouldContinue = (state: typeof MessagesAnnotation.State) => {
+const shouldContinue = (state: typeof TextInputAnnotation.State) => {
   const { messages } = state;
 
   const lastMessage = messages[messages.length - 1];
@@ -44,19 +60,10 @@ const shouldContinue = (state: typeof MessagesAnnotation.State) => {
 };
 
 /**
- * MessagesAnnotation is a pre-built state annotation imported from @langchain/langgraph.
- * It is the same as the following annotation:
- *
- * ```typescript
- * const MessagesAnnotation = Annotation.Root({
- *   messages: Annotation<BaseMessage[]>({
- *     reducer: messagesStateReducer,
- *     default: () => [systemMessage],
- *   }),
- * });
- * ```
+ * Simple workflow that accepts just text input.
+ * Use: "Your message here" (plain string)
  */
-const workflow = new StateGraph(MessagesAnnotation)
+const workflow = new StateGraph(TextInputAnnotation)
   .addNode("agent", callModel)
   .addEdge(START, "agent")
   .addNode("tools", toolNode)
