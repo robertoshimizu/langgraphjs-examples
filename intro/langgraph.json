@@ -4,7 +4,8 @@
   "dependencies": ["."],
   "graphs": {
     "simple_agent": "./src/index.ts:graph",
-    "react_agent": "./src/react_agent.ts:graph"
+    "react_agent": "./src/react_agent.ts:graph",
+    "self_rag_agent": "./src/self-rag_agent.ts:graph"
   },
   "env": "../.env"
 }
