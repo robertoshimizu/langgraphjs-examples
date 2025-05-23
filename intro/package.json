@@ -14,28 +14,28 @@
   "author": "Brace Sproul",
   "license": "MIT",
   "dependencies": {
-    "@langchain/community": "^0.2.31",
-    "@langchain/core": "^0.2.31",
+    "@langchain/community": "^0.3.44",
+    "@langchain/core": "^0.3.57",
     "@langchain/langgraph": "^0.2.1",
-    "@langchain/openai": "^0.2.8",
+    "@langchain/langgraph-checkpoint": "~0.0.16",
+    "@langchain/openai": "^0.5.11",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@tsconfig/recommended": "^1.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.51.0",
-    "@typescript-eslint/parser": "^5.51.0",
+    "@eslint/js": "^9.27.0",
+    "@tsconfig/recommended": "^1.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
     "dotenv": "^16.0.3",
-    "eslint": "^8.33.0",
+    "eslint": "^9.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "prettier": "^2.8.3",
-    "tsx": "^3.12.3",
-    "typescript": "^5.0.0"
-  },
-  "resolutions": {
-    "@langchain/core": "0.2.31"
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "prettier": "^3.5.3",
+    "tsx": "^3.14.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.32.1"
   }
 }

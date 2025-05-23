@@ -5,7 +5,7 @@ import {
   START,
   StateGraph,
 } from "@langchain/langgraph";
-import { AIMessage, BaseMessage } from "@langchain/core/messages";
+import { AIMessage } from "@langchain/core/messages";
 import { ChatOpenAI } from "@langchain/openai";
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
 

@@ -25,7 +25,7 @@ export default function ChatInterface() {
   const [assistantId, setAssistantId] = useState<string | null>(null);
   const [model, setModel] = useState<Model>("gpt-4o-mini" as Model);
   // Here we set the stream mode and strategy to show info in UI
-  const [streamMode, setStreamMode] = useState<StreamMode>("updates");
+  const [streamMode, setStreamMode] = useState<StreamMode>("messages");
   const [userId, setUserId] = useState<string>("");
   const [systemInstructions, setSystemInstructions] = useState<string>("");
   const [isLoading, setIsLoading] = useState(false);

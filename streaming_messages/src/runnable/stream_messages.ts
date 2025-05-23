@@ -1,3 +1,6 @@
+// Add this line to help with debugging
+console.log("Debugger attached. Starting execution...");
+
 import { graph } from "./graph.js";
 
 const input = {

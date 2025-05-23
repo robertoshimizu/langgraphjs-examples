@@ -193,18 +193,12 @@ const handleStreamUpdatesEvent = (
     return;
   }
   const data = event.data;
-  if (data.answer){
-    setMessages((prevMessages) => {
-      console.log(data.answer);
-      const content = data.answer.messages.pop();
-      return [
-        ...prevMessages,
-        { rawResponse: content, sender: "ai", id: data.run_id },
-      ];
-    });
-
-  }
-  
+  setMessages((prevMessages) => {
+    return [
+      ...prevMessages,
+      { rawResponse: data, sender: "ai", id: data.run_id },
+    ];
+  });
 };
 
 const handleStreamValuesEvent = (
