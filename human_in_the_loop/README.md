@@ -1,10 +1,23 @@
-# Human in the Loop
+# Human in the Loop (HITL)
 
-The code for the human in the loop (HITL) conceptual video can be found in this directory.
-This directory contains two graphs, located inside the [`dynamic_breakpoints.ts`](./src/dynamic_breakpoints.ts) and [`human_in_the_loop.ts`](./src/human_in_the_loop.ts) files.
+This directory demonstrates **Human in the Loop** patterns using a real-world customer refund authorization system. The AI agent can process refund requests but requires explicit human approval before executing sensitive operations.
 
-The dynamic breakpoints graph is not set in the LangGraph config, as it's meant to be a demonstration of how to run it programmatically.
-Because of this, there is also a `main` function inside the file which contains the logic necessary to invoke the graph, update the state, and then re-invoke the graph, carrying on where it left off.
+## What It Does
+
+**Customer Refund Authorization System** - Shows how AI agents can be designed with human oversight for critical business operations.
+
+**Key Components:**
+1. **AI Agent**: Handles customer refund requests and can call a `process_refund` tool
+2. **Human Gate**: Requires explicit human authorization (`refundAuthorized: true`) before executing refunds  
+3. **Interrupt Point**: Graph pauses before tool execution for human review
+
+**Workflow:**
+1. Customer requests refund → AI processes request → **STOPS** before refund tool
+2. Human reviews and authorizes → Graph continues → Refund processed
+
+This directory contains two graphs:
+- [`human_in_the_loop.ts`](./src/human_in_the_loop.ts) - Main HITL refund system (configured for Studio)
+- [`dynamic_breakpoints.ts`](./src/dynamic_breakpoints.ts) - Programmatic demonstration
 
 ## [YouTube Video](https://www.youtube.com/watch?v=gm-WaPTFQqM)
 
@@ -13,7 +26,7 @@ Because of this, there is also a `main` function inside the file which contains 
 To setup the HITL project, install the dependencies:
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ## Environment variables
@@ -22,21 +35,85 @@ The HITL project only requires an OpenAI API key to run. Sign up here:
 
 - OpenAI: https://platform.openai.com/signup
 
-Once you have your API keys, create a `.env` file in this directory and add the following:
+Once you have your API keys, create a `.env` file in the parent directory (`../`) and add the following:
 
 ```bash
 OPENAI_API_KEY=YOUR_API_KEY
 ```
 
-## Running the dynamic breakpoints graph
+## How to Test the HITL Agent
 
-To run the dynamic breakpoints graph, which is not setup to run via LangGraph Studio or Cloud by default --this can be easily changed by adding a new graph to the `graphs` field of the LangGraph config file, commenting out the `main` function, and the `checkpointer` passed to the graph where `.compile({})` is called-- you only need to run a single script:
+### Option 1: LangGraph Studio (Recommended)
+
+Run the LangGraph development server:
 
 ```bash
-yarn start:dynamic_breakpoints
+npx @langchain/langgraph-cli dev
 ```
 
-This should output roughly the following to the terminal:
+Access the Studio UI at: http://localhost:2024 or https://smith.langchain.com/studio?baseUrl=http://localhost:2024
+
+### Option 2: Programmatic Testing
+
+Run the dynamic breakpoints example:
+
+```bash
+pnpm run start:dynamic_breakpoints
+```
+
+## Example Inputs & Expected Workflow
+
+### Studio JSON Input Examples
+
+**Example 1: Basic refund request**
+```json
+{
+  "messages": [
+    {"role": "user", "content": "Can I have a refund for my purchase? Order no. 123"}
+  ]
+}
+```
+
+**Example 2: Defective product**
+```json
+{
+  "messages": [
+    {"role": "user", "content": "I need to return product ABC-456, it's defective"}
+  ]
+}
+```
+
+**Example 3: Shipping damage**
+```json
+{
+  "messages": [
+    {"role": "user", "content": "My order 789 was damaged in shipping. Can you process a refund?"}
+  ]
+}
+```
+
+### Expected Workflow in Studio
+
+1. **Submit Request**: Use one of the JSON examples above
+2. **Graph Interrupts**: Agent processes request → **STOPS** before calling refund tool
+3. **Human Authorization Required**: 
+   - Graph shows "interrupted" state
+   - Update state with: `{"refundAuthorized": true}`
+   - Resume execution
+4. **Refund Processed**: Graph continues → Processes refund → Returns success message
+
+### Important: Expected "Error" Behavior
+
+If you try to run a second input without authorization, you'll see:
+```
+Error: Permission to refund is required.
+```
+
+**This is expected!** The HITL agent is working correctly - it's preventing unauthorized refund processing. You must authorize through the Studio interface to continue.
+
+### Dynamic Breakpoints Output
+
+When running `pnpm run start:dynamic_breakpoints`, you should see:
 
 <details>
 <summary>Show terminal output</summary>
@@ -68,4 +145,4 @@ Event: agent
 
 ## LangGraph Config
 
-The LangGraph configuration file for the HITL project is located inside [`langgraph.json`](langgraph.json). This file defines the HITL graph implemented in the project: `human_in_the_loop`.
+The LangGraph configuration file is located in [`langgraph.json`](langgraph.json). This file defines the HITL graph: `human_in_the_loop`.
