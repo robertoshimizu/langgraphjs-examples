@@ -3,14 +3,12 @@ import {
   START,
   StateGraph,
   MessagesAnnotation,
-  MemorySaver,
   Annotation,
 } from "@langchain/langgraph";
 import { type AIMessage } from "@langchain/core/messages";
 import { ChatOpenAI } from "@langchain/openai";
 import { z } from "zod";
 import { tool } from "@langchain/core/tools";
-import { logEvent } from "utils.js";
 
 const GraphAnnotation = Annotation.Root({
   ...MessagesAnnotation.spec,

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const logEvent = (event: Record<string, any>) => {
   const key = Object.keys(event)[0];
   if (key) {

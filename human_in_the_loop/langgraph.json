@@ -5,6 +5,5 @@
   "graphs": {
     "human_in_the_loop": "./src/human_in_the_loop.ts:graph"
   },
-  "env": ".env"
+  "env": "../.env"
 }
-

@@ -125,10 +125,26 @@ If you see `SyntaxError: The requested module '@langchain/core/messages' does no
 
 This occurs when LangGraph CLI dependencies expect newer `@langchain/core` versions than what's installed.
 
+#### Studio Input Format Changes
+After the package upgrades, **LangGraph Studio now requires explicit JSON message format** instead of accepting plain text:
+
+**Required format:**
+```json
+{
+  "messages": [
+    {"role": "user", "content": "Your message here"}
+  ]
+}
+```
+
+**Note**: This is **not a breaking API change** in `MessagesAnnotation` itself, but rather a **CLI/Studio interface design decision** to be more explicit about input structure. The underlying LangGraph library still supports flexible input formats, but the Studio UI now requires structured JSON input for better control and debugging.
+
+*Investigation findings: No evidence of breaking changes in LangGraph CLI/MessagesAnnotation auto-conversion functionality was found in official documentation, GitHub releases, or migration guides. The change appears to be specific to the Studio UI interface requirements.*
+
 ### Status
 
 - ✅ **intro/**: Migrated and tested
-- ⏳ **human_in_the_loop/**: Pending
+- ✅ **human_in_the_loop/**: Migrated and tested
 - ⏳ **stockbroker/**: Pending  
 - ⏳ **streaming_messages/**: Pending
 - ⏳ **streaming_messages_frontend/**: Pending
