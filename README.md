@@ -282,3 +282,125 @@ User Question
 **Example execution trace**: [View Self-RAG in LangSmith](https://smith.langchain.com/public/68a08335-9e04-407d-a7a6-70d2212df14a/r)
 
 This creates a **self-improving research assistant** that produces higher-quality, more reliable answers by continuously checking and correcting its own work!
+
+## Repository Structure & Configurations
+
+### Package Management
+- **Package Manager**: `pnpm` (preferred) / `yarn` / `npm`
+- **Node Version**: 20 (specified in langgraph.json)
+- **TypeScript**: Strict typing enabled, ES2021 target
+
+### Environment Setup
+```bash
+# Global environment file location
+/langgraphjs-examples/.env
+
+# Required API Keys
+OPENAI_API_KEY=your_openai_api_key
+TAVILY_API_KEY=your_tavily_api_key  # For web search functionality
+LANGCHAIN_API_KEY=your_langsmith_api_key  # For LangSmith tracing
+```
+
+### Git Configuration
+- **Origin**: `robertoshimizu/langgraphjs-examples` (your fork)
+- **Upstream**: `bracesproul/langgraphjs-examples` (original repo)
+- **Current Branch**: `my-changes`
+
+### Completed Implementations
+
+#### intro/ 
+- **Agents**: simple_agent, react_agent, self_rag_agent
+- **Dependencies**: All required packages installed (langchain, cheerio, etc.)
+- **Configuration**: Updated langgraph.json with all 3 agents
+- **Status**: ✅ Fully migrated, tested, and operational
+
+#### human_in_the_loop/
+- **Agent**: Customer refund authorization system with HITL patterns
+- **Key Feature**: `interruptBefore: ["tools"]` for human authorization
+- **Authorization**: Requires `{"refundAuthorized": true}` state update
+- **Status**: ✅ Fully migrated, tested, and operational
+
+### Pending Migrations
+
+#### stockbroker/
+- **Status**: ⏳ Needs ESLint v9 migration
+- **Expected Issues**: Package updates, eslint.config.js creation
+- **Dependencies**: Likely needs additional LangChain packages
+
+#### streaming_messages/ & streaming_messages_frontend/
+- **Status**: ⏳ Need migration
+- **Type**: Next.js frontend + LangGraph backend
+- **Complexity**: Full-stack application with streaming
+
+## Development Workflow
+
+### Starting Development
+```bash
+# 1. Navigate to project
+cd /path/to/langgraphjs-examples/[project]
+
+# 2. Install dependencies (if needed)
+pnpm install
+
+# 3. Start LangGraph server
+npx @langchain/langgraph-cli dev
+
+# 4. Access Studio
+# API: http://localhost:2024
+# UI: https://smith.langchain.com/studio?baseUrl=http://localhost:2024
+```
+
+### Testing Input Formats
+**For MessagesAnnotation graphs:**
+```json
+{
+  "messages": [
+    {"role": "user", "content": "Your message here"}
+  ]
+}
+```
+
+**For custom text input graphs:**
+```json
+{
+  "input": "Your message here"
+}
+```
+
+### Migration Checklist
+For each new project migration:
+- [ ] Update ESLint/Prettier/TypeScript packages
+- [ ] Update LangChain packages to latest versions
+- [ ] Remove `resolutions` from package.json
+- [ ] Add `@langchain/langgraph-checkpoint@~0.0.16`
+- [ ] Install `@eslint/js typescript-eslint`
+- [ ] Create `eslint.config.js` with flat config
+- [ ] Test build: `pnpm run build`
+- [ ] Test lint: `pnpm run lint`
+- [ ] Test CLI: `npx @langchain/langgraph-cli dev`
+- [ ] Update README status
+
+## Troubleshooting Quick Reference
+
+### Common CLI Errors
+```bash
+# Missing isToolMessage export
+→ Update @langchain/core to 0.3.57+
+
+# Permission to refund required (HITL)
+→ Expected behavior, authorize via Studio UI
+
+# ESLint flat config not found
+→ Create eslint.config.js file
+
+# Peer dependency warnings
+→ Expected with ESLint v9, ignore safely
+```
+
+### File Locations
+- **LangGraph configs**: `[project]/langgraph.json`
+- **Environment**: `/langgraphjs-examples/.env`
+- **ESLint configs**: `[project]/eslint.config.js`
+- **Package files**: `[project]/package.json`
+
+This README now serves as both migration documentation and complete resumption guide for the repository modernization work.
