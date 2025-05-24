@@ -1,0 +1,2239 @@
+[
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Desmaio/Mal estar geral",
+    "descriptores": [
+      "Não responsiva",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)",
+      "Saturação de O₂ ≤ 89% em ambiente",
+      "Relato de diabetes (glicemia < 50 mg/dl)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Desmaio/Mal estar geral",
+    "descriptores": [
+      "Alteração de consciência ou estado mental (uso de álcool e drogas ilícitas ou hábito etílico)",
+      "Padrão respiratório ineficaz (gasping, dispneia, intenso esforço respiratório, retração intercostal, frases entrecortadas, batimento de asa de nariz ou qualquer padrão associado à cianose)",
+      "Saturação de O₂ ≥ 90% e ≤ 94% em ambiente",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Hipertemia ≥ 40ºC",
+      "Alterações de glicemia (considerar os parâmetros de gestante)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Desmaio/Mal estar geral",
+    "descriptores": [
+      "Saturação de O₂ ≥ 95% em ambiente",
+      "PAS de 140-159 mmHg e/ou PAD de 90-109 mmHg, assintomática",
+      "Febre (Tax de 38ºC a 39,9ºC)",
+      "Pacientes imunodeprimidos (história clínica de infecção por HIV)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Desmaio/Mal estar geral",
+    "descriptores": [
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg",
+      "Encaminhamento da UBS não enquadrada nas situações de urgência"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Desmaio/Mal estar geral",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor abdominal/lombar/contrações uterinas",
+    "descriptores": [
+      "Período expulsivo",
+      "Sangramento vaginal intenso em gestantes com mais de 22 semanas",
+      "Prolapso de cordão umbilical",
+      "Exteriorização de partes fetais",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor abdominal/lombar/contrações uterinas",
+    "descriptores": [
+      "Dor intensa (7-10/10)",
+      "Contrações intensas a cada 2 minutos",
+      "Hipertonia uterina/sangramento genital intenso (perda brusca ≥ 150 mL em 20 minutos ou ≥ dois absorventes noturnos; FC ≥ 120 bpm; PAS ≤ 70 mmHg)",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Perda de líquido espesso esverdeado",
+      "Portadora de doença falciforme",
+      "Portadora de HIV em trabalho de parto",
+      "Pós-parto imediato"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor abdominal/lombar/contrações uterinas",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "Contrações com intervalos maiores que 3 minutos",
+      "Sangramento moderado (perda de 60 a 150 mL em 20 minutos ou ≥ dois absorventes noturnos; FC ≤ 120, levemente hipotensa)",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Ausência de movimentação fetal a partir de 22 semanas",
+      "Vítima de violência física e sexual"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor abdominal/lombar/contrações uterinas",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Febre Tax ≤ 37,9ºC",
+      "PAS ≤ 139 e/ou PAD ≤ 89 mmHg",
+      "Perda de líquido em pequena quantidade",
+      "Encaminhamento de outras unidades de saúde não enquadradas nas situações de urgência"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor abdominal/lombar/contrações uterinas",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor de cabeça/tontura/vertigem",
+    "descriptores": [
+      "Apneia ou Padrão respiratório ineficaz (gasping, dispneia, intenso esforço respiratório, retração intercostal, frases entrecortadas, batimento de asa de nariz ou qualquer padrão associado à cianose)",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor de cabeça/tontura/vertigem",
+    "descriptores": [
+      "Alteração de consciência ou estado mental",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Dor intensa de início abrupto ou progressiva (7-10/10)",
+      "Distúrbio de equilíbrio, zumbidos, perda da visão, sinais de meningismo (rigidez de nuca, fotofobia, cefaleia)",
+      "Febre Tax: > 40ºC"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor de cabeça/tontura/vertigem",
+    "descriptores": [
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Dor forte moderada (4-6/10)",
+      "Náuseas e vômitos de início agudo e persistente",
+      "Febre Tax: ≤ 38ºC a 39,9ºC"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor de cabeça/tontura/vertigem",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Febre Tax: 37,5ºC a 37,9ºC",
+      "PAS ≤ 139 e/ou PAD ≤ 89 mmHg",
+      "Relato de náuseas e vômitos"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor de cabeça/tontura/vertigem",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Falta de ar/sintomas respiratórios",
+    "descriptores": [
+      "Saturação de O₂ ≤ 89% em ambiente",
+      "Estridor (som resultante do fluxo turbulento de ar na via aérea)",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Falta de ar/sintomas respiratórios",
+    "descriptores": [
+      "Padrão respiratório ineficaz (gasping, dispneia, intenso esforço respiratório, retração intercostal, frases entrecortadas, batimento de asa de nariz ou qualquer padrão associado à cianose)",
+      "Saturação de O₂ ≥ 90% e ≤ 94% em ambiente",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Início agudo após trauma",
+      "Portadora de doença falciforme"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Falta de ar/sintomas respiratórios",
+    "descriptores": [
+      "Dispneia moderada (consegue falar frases mais longas)",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Edema unilateral de MMII ou dor na panturrilha",
+      "Febre Tax: 38ºC a 39,9ºC",
+      "Dor de garganta com placas",
+      "Dor torácica moderada (4-6/10)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Falta de ar/sintomas respiratórios",
+    "descriptores": [
+      "Obstrução nasal com secreção amarelada",
+      "Dor de garganta sem outras alterações",
+      "Tosse produtiva, persistente",
+      "Febre Tax: 37,9ºC",
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Falta de ar/sintomas respiratórios",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Febre/sinais de infecção",
+    "descriptores": [
+      "Convulsão em atividade",
+      "Saturação de O₂ ≤ 89% em ambiente",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Febre/sinais de infecção",
+    "descriptores": [
+      "Padrão respiratório ineficaz (gasping, dispneia, intenso esforço respiratório, retração intercostal, frases entrecortadas, batimento de asa de nariz ou qualquer padrão associado à cianose)",
+      "Saturação de O₂ ≥ 90% e ≤ 94% em ambiente",
+      "Hipertermia Tax: ≥ 40ºC",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Portadora de doença falciforme"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Febre/sinais de infecção",
+    "descriptores": [
+      "Febre Tax: 38ºC a 39,9ºC",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Dor moderada (4-6/10)",
+      "Sinais de infecção em sítio cirúrgico",
+      "Ingurgitamento mamário com sinais flogísticos",
+      "Pacientes imunodeprimidos (história clínica de infecção por HIV)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Febre/sinais de infecção",
+    "descriptores": [
+      "Lesões genitais agudas",
+      "Ingurgitamento mamário sem sinais flogísticos associados",
+      "Queixas urinárias",
+      "Febre Tax: 37,9ºC",
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg",
+      "Dor leve (1-3/10)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Febre/sinais de infecção",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Náuseas e vômitos",
+    "descriptores": [
+      "Desidratação intensa e sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Náuseas e vômitos",
+    "descriptores": [
+      "Padrão respiratório ineficaz (gasping, dispneia, intenso esforço respiratório, retração intercostal, frases entrecortadas, batimento de asa de nariz ou qualquer padrão associado à cianose)",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Sinais de desidratação com repercussão hemodinâmica, mas sem sinais de choque"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Náuseas e vômitos",
+    "descriptores": [
+      "Febre Tax: 38ºC a 39,9ºC",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Vômitos com sinais de desidratação sem repercussão hemodinâmica (sinais de desidratação: hipotensão, taquicardia, turgor de pele deficiente, TEC > 2 segundos)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Náuseas e vômitos",
+    "descriptores": [
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg",
+      "Vômitos frequentes sem desidratação (sinais de desidratação: hipotensão, taquicardia, turgor de pele deficiente, TEC ≤ 2 segundos)",
+      "Febre Tax: ≤ 37,9ºC"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Náuseas e vômitos",
+    "descriptores": ["Atendimento não prioritário ou encaminhamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Perda de líquidos via vaginal/secreções",
+    "descriptores": [
+      "Trabalho de parto em período expulsivo",
+      "Exteriorização de partes fetais"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Perda de líquidos via vaginal/secreções",
+    "descriptores": [
+      "Dor intensa (7-10/10)",
+      "Trabalho de parto (contrações a cada 2 minutos)",
+      "Perda de líquido esverdeado espesso",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Portadora de HIV"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Perda de líquidos via vaginal/secreções",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Perda de líquido claro em grande quantidade",
+      "Vítima de violência física ou sexual"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Perda de líquidos via vaginal/secreções",
+    "descriptores": [
+      "Queixa atípica de perda de líquido",
+      "Dor aguda leve (1-3/10)",
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Perda de líquidos via vaginal/secreções",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Perda de sangue via vaginal",
+    "descriptores": [
+      "Irresponsiva",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)",
+      "Hemorragia exsanguinante (perda de ≥ 1.500mL - um lençol encharcado abruptamente; FC ≥ 120 bpm e PAS ≤ 70 mmHg)",
+      "Trabalho de parto em período expulsivo",
+      "Exteriorização de partes fetais"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Perda de sangue via vaginal",
+    "descriptores": [
+      "Confusão/letargia",
+      "Sangramento intenso (perda brusca ≥ 150 mL em 20 minutos ou ≥ dois absorventes noturnos; FC ≥ 120 bpm; PAS ≤ 70 mmHg)",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Dor intensa (7-10/10)",
+      "Trabalho de parto (contração a cada 2 minutos)",
+      "Hipertonia uterina"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Perda de sangue via vaginal",
+    "descriptores": [
+      "Sangramento moderado (perda de 60 a 150 mL em 20 minutos - um absorvente noturno; FC ≤ 120; levemente hipotensa)",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Contrações uterinas a intervalos de 3 a 5 minutos",
+      "Ausência de percepção do movimento fetal em gravidez ≥ 22 semanas",
+      "Febre Tax: 38ºC a 39,9ºC",
+      "Vítima de violência física e sexual"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Perda de sangue via vaginal",
+    "descriptores": [
+      "Sangramento leve (perda ≤ 60 mL em 6 horas - um absorvente normal; FC ≤ 90 bpm; PAS normal)",
+      "Dor abdominal aguda leve (1-3/10)",
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Perda de sangue via vaginal",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Queixas urinárias",
+    "descriptores": [
+      "Saturação de O₂ ≥ 90% e ≤ 94% em ambiente",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PAS ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Hipertermia Tax: ≥ 40ºC",
+      "Dor intensa (7-10/10)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Queixas urinárias",
+    "descriptores": [
+      "Febre Tax: 38ºC a 39,9ºC",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Dor moderada (4-6/10)",
+      "Retenção urinária",
+      "Pacientes imunodeprimidas (história clínica de infecção por HIV)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Queixas urinárias",
+    "descriptores": [
+      "Algúria/disúria, poliúria (dor acompanhada de dificuldade para urinar)",
+      "Lesões vulvares externas",
+      "Dor leve (1-3/10)",
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Queixas urinárias",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Parada/redução de movimentos fetais",
+    "descriptores": [
+      "Saturação de O₂ ≥ 90% e ≤ 94% em ambiente",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PAS ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "Hipertermia Tax: ≥ 40ºC",
+      "Dor intensa (7-10/10)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Parada/redução de movimentos fetais",
+    "descriptores": [
+      "Relato de ausência de movimento fetal por mais de 12 horas em gestação ≥ 26 semanas",
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Parada/redução de movimentos fetais",
+    "descriptores": [
+      "Relato de ausência de movimento fetal por mais de 12 horas em gestação ≥ 20 e < 26 semanas",
+      "Relato de ausência de movimento fetal por menos de 12 horas em gestação > 22 semanas",
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Parada/redução de movimentos fetais",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Relato de convulsão",
+    "descriptores": [
+      "Não responsiva",
+      "Convulsão em atividade",
+      "Padrão respiratório ineficaz (gasping, dispneia, intenso esforço respiratório, retração intercostal, frases entrecortadas, batimento de asa de nariz ou qualquer padrão associado à cianose)",
+      "Saturação de O₂ ≤ 89% em ambiente",
+      "Choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm; palidez, sudorese fria, alteração de nível de consciência)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Relato de convulsão",
+    "descriptores": [
+      "Alteração de estado mental/comportamento",
+      "Saturação de O₂ ≥ 90% e ≤ 94% em ambiente",
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais",
+      "História de diabetes (glicemia ≤ 50 mg/dl)",
+      "Hipertermia Tax: ≥ 40ºC"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Relato de convulsão",
+    "descriptores": [
+      "História de perda de consciência",
+      "Saturação de O₂ ≥ 95%",
+      "Qualquer valor de PA",
+      "Febre Tax: 38ºC a 39,9ºC",
+      "Pacientes imunodeprimidos (história clínica de infecção por HIV)",
+      "História de trauma"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Outras queixas/pacientes encaminhados de outras unidades sem referência",
+    "descriptores": [
+      "PAS ≥ 160 e/ou PAD ≥ 110 mmHg",
+      "PA ≥ 140/90 mmHg com cefaleia, epigastralgia ou alterações visuais"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Outras queixas/pacientes encaminhados de outras unidades sem referência",
+    "descriptores": [
+      "PAS de 140-159 e/ou PAD de 90-109 mmHg, assintomática",
+      "Dor persistente na perna que não melhora, acompanhada de edema e rigidez de musculatura da panturrilha",
+      "Pacientes imunodeprimidos (história clínica de infecção por HIV)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Outras queixas/pacientes encaminhados de outras unidades sem referência",
+    "descriptores": [
+      "PAS ≤ 139 mmHg e PAD ≤ 89 mmHg",
+      "Idade gestacional acima de 41 semanas"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Outras queixas/pacientes encaminhados de outras unidades sem referência",
+    "descriptores": [
+      "Solicitação de atestados, licença maternidade, troca de pedidos de exames/receitas"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Parâmetros para avaliação de sinais vitais em febre e gestantes",
+    "descriptores": [
+      "PAS inaudível ou abaixo de 80 mmHg",
+      "PAD inaudível",
+      "FC ≥ 140 ou ≤ 59 bpm (paciente sintomática)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Parâmetros para avaliação de sinais vitais em febre e gestantes",
+    "descriptores": [
+      "PAS ≥ 160 mmHg",
+      "PAD ≥ 110 mmHg",
+      "FC ≥ 140 ou ≤ 50 bpm (paciente sintomática)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Parâmetros para avaliação de sinais vitais em febre e gestantes",
+    "descriptores": [
+      "PAS ≥ 140 a 159, sintomática",
+      "PAD ≥ 90 a 109 mmHg, sintomática",
+      "FC: 91 a 139 bpm"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Parâmetros para avaliação de sinais vitais em febre e gestantes",
+    "descriptores": [
+      "PAS abaixo de 139 mmHg",
+      "PAD abaixo de 89 mmHg",
+      "FC: 60 a 90 bpm"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Parâmetros para avaliação de sinais vitais em febre e gestantes",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Parâmetros de avaliação da glicemia",
+    "descriptores": [
+      "Hiperglicemia (glicemia > 300 mg/dl)",
+      "Hiperglicemia com cetose (glicemia > 200 mg/dl ou sinais de acidose - respiração profunda)",
+      "Hipoglicemia (glicemia < 50 mg/dl)"
+    ],
+    "segmento": "gestante"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Alterações cutâneas",
+    "descriptores": [
+      "Respiração inadequada (FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC < 40 ou ≥ 150 bpm)",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Alterações cutâneas",
+    "descriptores": [
+      "Estridor laríngeo ou dificuldade de falar (estridor: som resultante de fluxo turbulento de ar na via aérea superior)",
+      "Edema difuso de face (inchaço envolvendo a derme profunda, tecido subcutâneo, representando um edema localizado)",
+      "Perfusão comprometida (TEC > 2 segundos)",
+      "Dor intensa (7-10/10) com abscesso ou flutuação",
+      "Mordedura (humana ou animal): acidentes graves com ferimentos profundos em regiões como cabeça, face, pescoço, ou planta do pé",
+      "Ferida de difícil controle de sangramento (sangramento visível que não cessa após compressão)",
+      "Acidente com animal peçonhento (sem sinais e sintomas sistêmicos)",
+      "Toxemiado, prostrado ou febril (cianótico, taquipneico, dispneico)",
+      "Contato com produtos químicos de alta letalidade (toxicidade aguda após uma única exposição)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Alterações cutâneas",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "Ferida com sangramento controlado (sangramento contido após compressão)",
+      "Abscesso e Febre (Tax > 37,8ºC)",
+      "Placas eritematosas de início súbito",
+      "Eruptões secretantes ou bolhosas (> 10% do corpo associado a prurido)",
+      "Com infecção secundária (presença de sinais flogísticos como dor, calor e rubor)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Alterações cutâneas",
+    "descriptores": [
+      "Mordedura (humana ou animal) com lesões superficiais",
+      "Dor leve (1-3/10) com abscesso ou flutuação",
+      "Abscesso SEM Febre",
+      "Ferida infectada (sem sinais sistêmicos)",
+      "Ferida superficial (lesão pequena e sem sangramento)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Alterações cutâneas",
+    "descriptores": [
+      "Retirada de pontos (sem sinais sistêmicos)",
+      "Troca de curativos (sem sinais sistêmicos)",
+      "Quadro crônico ou recorrente (sem sinais sistêmicos)",
+      "Nenhum dos determinantes anteriores"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Alterações do nível de consciência, comportamento ou sensório",
+    "descriptores": [
+      "Estado mental alterado (desorientação no tempo, lugar e pessoas; incapacidade de cumprir ordens simples, pensamento desordenado)",
+      "Respiração inadequada (FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC < 40 ou ≥ 150 bpm)",
+      "Saturação de O₂ ≤ 85%",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)",
+      "Sinais neurológicos focais (paresia, parestesia, disfagia, afasia, ataxia, distúrbio de equilíbrio)",
+      "Alterações glicêmicas (glicemia ≥ 250 ou < 50 mg/dl)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Alterações do nível de consciência, comportamento ou sensório",
+    "descriptores": [
+      "História de trauma craniano RECENTE (história de TCE inferior a 6 horas)",
+      "História de overdose ou envenenamento (exposição a drogas ou outras substâncias)",
+      "Extrema agitação/agressividade (intensa agitação, alteração de excitabilidade psíquica, resposta exacerbada a estímulos, irritabilidade, movimentos motores desorganizados e destrutivos, podendo cursar com agressividade)",
+      "Alteração de temperatura (temperatura < 35ºC ou ≥ 40ºC)",
+      "Déficit neurológico novo (perda de função de nervos, medular, espinhal ou cerebral diferente da área específica anteriormente comprometida)",
+      "Saturação de O₂ < 85-89%",
+      "Potencial suicida/homicida (presença de ideia ou plano com intenção ou sinais suicidas ou homicidas)",
+      "Dor intensa (7-10/10, dor intolerável, geralmente descrita como jamais sentida)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Alterações do nível de consciência, comportamento ou sensório",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "Saturação de O₂ 90-94%",
+      "Vômito persistente (refluxo incontrolável que expõe conteúdo gástrico pela boca e que não cessa com medidas para alívio de náuseas)",
+      "História de inconsciência (perda da capacidade de permanecer alerta)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Alterações do nível de consciência, comportamento ou sensório",
+    "descriptores": [
+      "Saturação de O₂ ≥ 95%",
+      "Vômitos esparsos",
+      "Sintomas depressivos e/ou de ansiedade (relato de tristeza, apatia, irritabilidade, angústia, dificuldade para conciliar o sono, de concentração, história de abuso de álcool e outras drogas)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Alterações do nível de consciência, comportamento ou sensório",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Convulsão",
+    "descriptores": [
+      "Convulsão ativa",
+      "Comprometimento/obstrução de vias aéreas (presença de secreções, sangue, corpo estranho)",
+      "Alterações glicêmicas (glicemia ≥ 250 ou < 70 mg/dl)",
+      "Respiração inadequada (FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC < 40 ou ≥ 150 bpm)",
+      "Sinais neurológicos focais (paresia, parestesia, disfagia, afasia, ataxia, distúrbio do equilíbrio)",
+      "Crise convulsiva reentrante (crise repetida sem a recuperação completa da consciência entre elas)",
+      "Sinais meníngeos (rigidez de nuca, fotofobia, cefaleia)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Convulsão",
+    "descriptores": [
+      "História de overdose ou envenenamento (dosagem excessiva de medicamentos e/ou outras substâncias)",
+      "História de trauma craniano RECENTE (história de TCE inferior a seis dias)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Convulsão",
+    "descriptores": [
+      "Em pós-comicial (momento posterior à crise convulsiva que pode se caracterizar por perda da consciência, confusão ou desorientação mental e letargia)",
+      "História de epilepsia em tratamento (histórico pessoal de epilepsia em uso de anticonvulsivante)",
+      "Crise convulsiva há menos de 12h e alerta (relato de crise convulsiva nas últimas 12 horas)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Convulsão",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Convulsão",
+    "descriptores": ["Atendimento não prioritário ou referenciamento à UBS"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Alteração do nível de consciência (score na Escala de Coma de Glasgow - ECG ≤ 9)",
+      "Comprometimento/obstrução de vias aéreas (presença de secreções, sangue, corpo estranho)",
+      "Alterações glicêmicas (glicemia > 400 ou < 50 mg/dl)",
+      "Rigidez de nuca/muscular, hipertonicidade (incapacidade de flexionar a cabeça para frente devido à rigidez muscular e resistência à movimentação passiva)",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Pulso anormal (tipo de pulso arterial muito fraco)",
+      "Dor torácica (dor intensa em aperto ou peso no meio do peito, irradiando para o braço esquerdo ou pescoço, associada a náuseas e epigastralgia)",
+      "Distúrbio súbito do equilíbrio (associado a náuseas e vômitos)",
+      "Dor intensa (7-10/10, dor intolerável, geralmente descrita como jamais sentida)",
+      "Em pós-comicial e torporoso/comatoso (momento posterior à crise convulsiva que se caracteriza por perda da consciência, confusão ou desorientação mental e letargia)",
+      "Dispneia aguda (sensação de dificuldade para respirar de início súbito)",
+      "Alteração do nível de consciência (score na Escala de Coma de Glasgow - ECG 10-13)",
+      "Alteração de temperatura (temperatura < 35ºC ou ≥ 39,5ºC)",
+      "História importante de alergia (relato de reação alérgica grave)",
+      "Cefaleia intensa (7-10/10, dor intolerável, geralmente descrita como \"a pior dor de cabeça da vida\")",
+      "Déficit neurológico agudo (paresia, plegia, parestesia, afasia, facial)",
+      "História de trauma craniano RECENTE (relato de TCE inferior a seis dias)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "História de inconsciência (perda da capacidade de permanecer alerta)",
+      "Dor moderada (4-6/10)",
+      "Em pós-comicial (momento posterior à crise convulsiva que pode se caracterizar por perda da consciência, confusão ou desorientação mental e letargia)",
+      "Relato de primeira crise convulsiva",
+      "Crise convulsiva há menos de 12h e alerta (relato de crise convulsiva nas últimas 12 horas)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Parestesias bilaterais ou migratórias (sensações cutâneas subjetivas como formigamento, pressão ou frio que são percebidas espontaneamente na ausência de estimulação)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Diarreia e Vômitos (Pacientes idosos e imunossuprimidos)",
+    "descriptores": [
+      "Vômito COM sangue (presença de grande quantidade de sangue no vômito presenciado ou relatado com repercussão hemodinâmica: hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Diarreia e Vômitos (Pacientes idosos e imunossuprimidos)",
+    "descriptores": [
+      "Dor abdominal intensa (dor intolerável, geralmente descrita como jamais sentida)",
+      "Alteração do nível de consciência (score na Escala de Coma de Glasgow - ECG 9-14)",
+      "Perfusão periférica > 4 segundos"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Diarreia e Vômitos (Pacientes idosos e imunossuprimidos)",
+    "descriptores": [
+      "Alteração de temperatura (temperatura < 35ºC ou ≥ 37,8ºC)",
+      "Fezes enegrecidas ou em geleia de groselha (presença de sangue fresco como relato ou visualização)",
+      "Dor moderada (4-6/10)",
+      "Sinais de desidratação (diminuição da turgidez da pele e palidez ao levantar ao lugar, sede e fraqueza)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Diarreia e Vômitos (Pacientes idosos e imunossuprimidos)",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Vômitos esparsos",
+      "Evento de início < 6 horas"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Diarreia e Vômitos (Pacientes idosos e imunossuprimidos)",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor abdominal ou queixas abdominais",
+    "descriptores": [
+      "Comprometimento/obstrução de vias aéreas (presença de secreções, sangue, corpo estranho)",
+      "Respiração inadequada (FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC < 40 ou ≥ 150 bpm)",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)",
+      "Vômito com sangue (presença de grande quantidade de sangue no vômito presenciado ou relatado com repercussão hemodinâmica: hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor abdominal ou queixas abdominais",
+    "descriptores": [
+      "Dor irradiando para o dorso",
+      "Dor epigástrica",
+      "Alteração de temperatura (temperatura < 35ºC ou ≥ 37,8ºC)",
+      "Dor intensa (7-10/10, dor intolerável, geralmente descrita como jamais sentida)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor abdominal ou queixas abdominais",
+    "descriptores": [
+      "Fezes enegrecidas ou em geleia de groselha (presença de sangue fresco como relato ou visualização nas fezes)",
+      "Dor moderada (4-6/10)",
+      "História de vômito COM sangue < 6 HORAS",
+      "Sangramento vaginal",
+      "Possível gravidez",
+      "Irradiação para ombro",
+      "Vômito persistente (refluxo incontrolável que expõe conteúdo gástrico pela boca e que não cessa com medidas para alívio de sintomas)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor abdominal ou queixas abdominais",
+    "descriptores": ["Dor leve (1-3/10)", "Vômitos esparsos"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor abdominal ou queixas abdominais",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor cervical",
+    "descriptores": [
+      "Respiração inadequada (FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC < 40 ou ≥ 150 bpm)",
+      "Comprometimento/obstrução de vias aéreas (presença de secreções, sangue, corpo estranho)",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)",
+      "Manifestações hemorrágicas (presença de petéquias, equimoses, sangramentos espontâneos)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor cervical",
+    "descriptores": [
+      "Alteração do nível de consciência (score na Escala de Coma de Glasgow - ECG 9-14)",
+      "Sinais de meningismo (rigidez na nuca, fotofobia - intolerância ao brilho da luz - e cefaleia)",
+      "Sinais neurológicos focais (paresia, parestesia, disfagia, afasia, ataxia, distúrbio do equilíbrio)",
+      "Dor intensa (7-10/10, dor intolerável, geralmente descrita como jamais sentida)",
+      "Alteração de temperatura (temperatura < 35ºC ou ≥ 37,8ºC)",
+      "Trauma direto no pescoço (inclui traumatismos de garganta, nuca e região supraclavicular)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor cervical",
+    "descriptores": ["Dor moderada (4-6/10)"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor cervical",
+    "descriptores": ["Dor leve (1-3/10)", "Evento recente < 7 DIAS"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor cervical",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor de cabeça",
+    "descriptores": [
+      "Estado mental alterado (desorientado no tempo, lugar e desconhecimento de pessoas; incapacidade de cumprir ordens simples; pensamento desconexo)",
+      "Sinais de choque (hipotensão - PAS ≤ 80 mmHg; taquicardia - FC ≥ 140 bpm ou bradicardia - FC ≤ 40 bpm)",
+      "Convulsão ativa",
+      "Sinais neurológicos focais (paresia, parestesia, disfagia, afasia, ataxia, distúrbio do equilíbrio)",
+      "Início súbito de maior intensidade já sentida (dor intolerável, geralmente descrita como 'A pior dor de cabeça da vida')"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor de cabeça",
+    "descriptores": [
+      "Perda aguda completa da visão",
+      "Sinais de meningismo (rigidez na nuca, fotofobia - intolerância ao brilho da luz - e cefaleia)",
+      "Dor intensa (7-10/10, dor intolerável, geralmente descrita como jamais sentida)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor de cabeça",
+    "descriptores": [
+      "Alteração de temperatura (temperatura < 35ºC ou ≥ 37,8ºC)",
+      "História de inconsciência (perda da capacidade de permanecer alerta)",
+      "Diminuição recente da visão",
+      "Dor moderada (4-6/10)",
+      "Náuseas e vômitos (associados à dor)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor de cabeça",
+    "descriptores": ["Dor leve (1-3/10)", "Evento recente < 7 DIAS"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor de cabeça",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor de garganta",
+    "descriptores": [
+      "Comprometimento/obstrução de vias aéreas",
+      "Descritor: presença de secreções, sangue, corpo estranho."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor de garganta",
+    "descriptores": [
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "Estridor laríngeo ou dificuldade de falar",
+      "Descritor: estridor: um som resultante do fluxo turbulento de ar na via aérea superior."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor de garganta",
+    "descriptores": [
+      "História de viagem recente",
+      "Dor moderada (4-6/10)",
+      "Descritor: dor suportável, mas intensa.",
+      "Alteração de temperatura",
+      "Descritor: temperatura < 35ºC ou ≥ 37,8ºC."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor de garganta",
+    "descriptores": [
+      "Dificuldade para deglutir",
+      "Dor leve (1-3/10)",
+      "Ardência na garganta sem SIALORREIA",
+      "Descritor: tosse, coriza, obstrução."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor de garganta",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor na coluna e em extremidades",
+    "descriptores": [
+      "Comprometimento/obstrução de vias aéreas",
+      "Descritor: presença de secreções, sangue, corpo estranho.",
+      "Sinais neurológicos focais",
+      "Descritor: paresia, parestesia, disfagia, afasia, ataxia, distúrbio do equilíbrio.",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Sinais de isquemia"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor na coluna e em extremidades",
+    "descriptores": [
+      "Sinais flogísticos ou com drenagem em articulação",
+      "Descritor: edema, hiperemia, calor e rubor.",
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "Alteração de temperatura",
+      "Descritor: temperatura < 35ºC ou ≥ 37,8ºC.",
+      "Comprometimento vascular distal",
+      "Grave mecanismo de trauma",
+      "Descritor: desaceleração frontal rápida; desaceleração vertical rápida; penetração de projétil."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor na coluna e em extremidades",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "Dificuldade de andar",
+      "Sem sinais de isquemia",
+      "Sinais flogísticos locais não articulares",
+      "Descritor: edema, hiperemia, calor e rubor.",
+      "Limitação dos movimentos/função"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor na coluna e em extremidades",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Edema articular sem flogose",
+      "Descritor: flogose é uma resposta do organismo ao agente agressor, caracterizado pela saída de líquidos e células inflamatórias para o local.",
+      "Evento recente",
+      "Descritor: aparecimento <7 dias.",
+      "Limitação dos movimentos sem perda da função"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor na coluna e em extremidades",
+    "descriptores": ["Dor crônica não agudizada"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Dor torácica",
+    "descriptores": [
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Dor precordial",
+      "Descritor: dor intensa em aperto no peso no meio do peito, irradiando para o braço esquerdo ou pescoço. Pode-se associar sudorese e náuseas.",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Trauma penetrante"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Dor torácica",
+    "descriptores": [
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "Hemoptise ativa",
+      "Descritor: sangramento ativo vermelho vivo em quantidade maior que uma colher de chá.",
+      "Trauma torácico com falta de ar",
+      "Pulso anormal",
+      "Descritor: tipo de pulso arterial muito fraco."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Dor torácica",
+    "descriptores": [
+      "História cardíaca importante",
+      "Dor moderada (4-6/10)",
+      "Dor pleurítica",
+      "Descritor: dor aguda provocada pela irritação do revestimento dos pulmões – torna-se mais intensa com a respiração ou com a tosse.",
+      "Epistaxe",
+      "Descritor: sangramento nasal não controlado por compressão direta.",
+      "Vômito persistente",
+      "História cardíaca importante"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Dor torácica",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Descritor: sem outros sintomas associados e em pacientes sem história prévia de coronariopatia ou embolia pulmonar.",
+      "Dor que piora ao movimento",
+      "Descritor: dor de característica muscular (localizada, evidenciada à palpação, que piora com movimentos do tórax ou membros superiores).",
+      "Dificuldade para deglutir",
+      "Tosse produtiva"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Dor torácica",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Exposição a agente químicos",
+    "descriptores": [
+      "Estado mental alterado",
+      "Descritor: confusão mental, rebaixamento do nível de consciência; letargia e/ou confusão mental.",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Saturação de O2 < 85%",
+      "Edema facial",
+      "Edema de língua",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Convulsão ativa",
+      "Descritor: contratura muscular involuntária de todo o corpo ou de parte dele.",
+      "Risco de contaminação contínua",
+      "Lesão ocular química aguda"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Exposição a agente químicos",
+    "descriptores": [
+      "Ingestão há menos de 6h sem sintomas",
+      "Substância de alto risco de intoxicação",
+      "Saturação de O2 de 85-89%",
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "História de intoxicação",
+      "Estridor",
+      "Descritor: estridor: um som resultante do fluxo turbulento de ar na via aérea superior.",
+      "História psiquiátrica importante",
+      "Acidente perfurocortante com material biológico"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Exposição a agente químicos",
+    "descriptores": [
+      "Prurido e/ou irritação intensa",
+      "Saturação de O2 de 90-94%",
+      "Dor moderada (4-6/10)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Exposição a agente químicos",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Saturação de O2 > 95%",
+      "Alterações dérmicas locais"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Exposição a agente químicos",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Mordeduras e picadas de animais",
+    "descriptores": [
+      "Hemorragia Severa",
+      "Comprometimento/obstrução de vias aéreas",
+      "Descritor: presença de secreções, sangue, corpo estranho.",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); Taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Saturação de O2 < 85%",
+      "Descritor: saturação de oxigênio < 95% com O2 e < 90% em ar ambiente."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Mordeduras e picadas de animais",
+    "descriptores": [
+      "Alteração do nível de consciência",
+      "Descritor: escore na Escala de Coma de Glasgow (ECG 9-14).",
+      "Estridor laríngeo ou dificuldade de falar",
+      "Descritor: estridor é um som resultante do fluxo turbulento de ar na via aérea superior.",
+      "Edema de face",
+      "Edema de língua",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Saturação de O2 de 85-89%",
+      "Ferimentos profundos",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "História importante de alergia",
+      "Veneno alta mortalidade"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Mordeduras e picadas de animais",
+    "descriptores": [
+      "Sem sinais sistêmicos",
+      "Eritema ou bolhas disseminadas",
+      "Dor moderada (4-6/10)",
+      "Saturação de O2 de 90-94%",
+      "Prurido intenso",
+      "Sangramento controlável",
+      "Descritor: sangramento ativo contido por compressão."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Mordeduras e picadas de animais",
+    "descriptores": [
+      "Saturação de O2 > ou = 95%",
+      "Dor leve (1-3/10)",
+      "Inflamação local",
+      "Descritor: edema, hiperemia, calor e rubor.",
+      "Infecção local"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Mordeduras e picadas de animais",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Mal-estar geral",
+    "descriptores": [
+      "Hipoglicemia grave",
+      "Descritor: glicemia ≤ 50 mg/dl e sinais: mudança de comportamento (agressividade, apatia, perda de consciência, crise convulsiva) e necessidade de ajuda de terceiros.",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); Taquicardia (FC ≥ 140 bpm) ou Bradicardia (FC ≤ 40 bpm)."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Mal-estar geral",
+    "descriptores": [
+      "Sinais neurológicos focais",
+      "Descritor: paresia, parestesia, disfasia, afasia, ataxia, distúrbio do equilíbrio.",
+      "Sinais de meningismo",
+      "Descritor: rigidez de nuca, fotofobia (intolerância ao brilho da luz) e dor de cabeça.",
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "Alteração do nível de consciência",
+      "Descritor: escore na Escala de Coma de Glasgow (ECG 9-14)."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Mal-estar geral",
+    "descriptores": [
+      "Petéquias e equimoses",
+      "Sudorese fria",
+      "Sinais vitais alterados",
+      "Descritor: PAS ≥ 220 ou PAD >130 mmHg; PAS < 80 mmHg; FC < 40 ou >150 bpm; FR < 10 ou > 36 irpm.",
+      "Dor moderada (4-6/10)",
+      "Bolhas ou manchas disseminadas",
+      "Imunossupressão conhecida",
+      "História hematológica importante"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Mal-estar geral",
+    "descriptores": [
+      "Alteração de temperatura (<35 ou >37,8°C)",
+      "Dor leve (1-3/10)",
+      "Evento recente de viagem para regiões endêmicas",
+      "Descritor: Aparente <7 dias."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Mal-estar geral",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Palpitações",
+    "descriptores": [
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; Cianose; Letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Sinais de choque",
+      "Descritor: Hipotensão (PA sistólica ≤ 80 mmHg); Taquicardia (FC ≥ 140 bpm) ou Bradicardia (FC ≤ 40 bpm)."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Palpitações",
+    "descriptores": [
+      "Dispneia aguda",
+      "Descritor: sensação subjetiva de desconforto respiratório ou dificuldade para respirar (< 30 dias).",
+      "Pulso anormal (FILIFORME)",
+      "Descritor: Tipo de pulso arterial muito fraco.",
+      "Dor cardíaca",
+      "Descritor: dor intensa em aperto ou peso no meio do peito, irradiando para o braço esquerdo ou pescoço. Pode-se associar sudorese e vômitos.",
+      "História de overdose ou envenenamento"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Palpitações",
+    "descriptores": [
+      "Palpitação no momento",
+      "História cardíaca importante",
+      "História de inconsciência"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Palpitações",
+    "descriptores": ["Evento recente"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Palpitações",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Politraumas",
+    "descriptores": [
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Comprometimento/obstrução de vias aéreas",
+      "Descritor: presença de secreções, sangue, corpo estranho.",
+      "Hemorragia severa",
+      "Amputação traumática"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Politraumas",
+    "descriptores": [
+      "Alteração do nível de consciência",
+      "Descritor: escore na Escala de Coma de Glasgow (ECG 9-14).",
+      "Palidez cutânea e sudorese fria",
+      "Descritor: tipo de pulso arterial muito fraco.",
+      "Dor pleurítica",
+      "Descritor: dor aguda provocada pela irritação do revestimento dos pulmões – toma-se mais intensa com a respiração profunda e a tosse.",
+      "Sinais neurológicos focais",
+      "Descritor: paresia, parestesia, disfagia, afasia, ataxia, distúrbio do equilíbrio.",
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "Instabilidade da pelve",
+      "Náuseas/vômitos",
+      "Evisceração",
+      "Descritor: é uma lesão onde ocorre a extrusão de vísceras abdominais.",
+      "Trauma direto no pescoço"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Politraumas",
+    "descriptores": [
+      "Envolvimento em mecanismo de trauma grave",
+      "Descritor: queda de altura, acidente automobilístico, acidente com moticicleta, atropelamento ou acidente de ciclista.",
+      "Hemorragia controlável",
+      "Descritor: sangramento ativo contido por compressão.",
+      "Cefaleia moderada (4-6/10)",
+      "História de inconsciência"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Politraumas",
+    "descriptores": [
+      "Contusões e escoriações",
+      "Dor leve",
+      "Evento recente",
+      "Descritor: evento (trauma) há mais de seis horas."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Politraumas",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Queimaduras",
+    "descriptores": [
+      "Estado mental alterado",
+      "Descritor: letargia, confusão mental, agitação.",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Saturação de O₂ < 85%",
+      "Descritor: saturação de oxigênio < 95% com O₂ e < 90% em ar ambiente."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Queimaduras",
+    "descriptores": [
+      "Queimaduras circunferenciais",
+      "Queimaduras de 2º/3º graus > 10% de SCQ",
+      "Descritor: >10 e ≤ 25% SCQ.",
+      "Queimaduras de 2º/3º graus em face e períneo",
+      "Queimaduras elétricas",
+      "Queimaduras em ambientes confinados",
+      "Saturação de O₂ 85-89%",
+      "Estridor",
+      "Descritor: estridor é um som resultante do fluxo turbulento de ar na via aérea superior."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Queimaduras",
+    "descriptores": [
+      "Queimaduras de 2º/3º graus < 10% de SCQ",
+      "Queimaduras de 1º grau > 10% de SCQ",
+      "Descritor: ≤ 10% de SCQ em áreas não críticas. Sem áreas críticas: face, períneo e genitais.",
+      "Queimaduras de 1º grau em face e períneo",
+      "Queimaduras de mãos e pés de qualquer grau",
+      "Saturação de O₂ 90-94%"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Queimaduras",
+    "descriptores": [
+      "Saturação de O₂ ≥ 95%",
+      "Queimaduras de 1º grau",
+      "Descritor: < 10% de SCQ em áreas não críticas."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Queimaduras",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Queixas Oculares",
+    "descriptores": [
+      "Dados vitais alterados",
+      "Descritor: PAS ≥ 220 ou PAD ≥ 130 mmHg; PAS ≤ 80 mmHg; FC ≤ 40 ou ≥ 150 bpm; FR ≤ 10 ou ≥ 36 irpm; Febre (> 40ºC em adultos; Febre (T. axilar ≥ 38,5ºC) em imunocomprometidos; PAS entre 190-220 / PAD entre 120-130 mmHg; Febre (T. axilar ≥ 38,5ºC) em imunocomprometidos e com toxemia.",
+      "Dor intensa (7-10/10)",
+      "Perda visual súbita ou diplopia"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Queixas Oculares",
+    "descriptores": ["Dor moderada (4-6/10)", "Celulite periorbitária"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Queixas Oculares",
+    "descriptores": [
+      "Dor leve",
+      "Sensação de corpo estranho",
+      "Hemorragia na esclera",
+      "Descritor: sem história de trauma.",
+      "Olho avermelhado e/ou secreção",
+      "Descritor: sem história de trauma, contato com substância química ou soda."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Queixas Oculares",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Queixas Otológicas",
+    "descriptores": [
+      "Alteração do estado mental",
+      "Descritor: confusão mental, agitação, delírios",
+      "Otorragia",
+      "Descritor: sangramento pelo conduto auditivo externo",
+      "Dor intensa (7-10/10)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Queixas Otológicas",
+    "descriptores": ["Dor moderada (4-6/10)"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Queixas Otológicas",
+    "descriptores": [
+      "Perda recente da audição",
+      "Zumbidos",
+      "Presença de corpo estranho",
+      "Dor leve (1-3/10)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Queixas Otológicas",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Queixas Respiratórias (Falta de ar, obstrução nasal, tosse, história de asma (cuidado com o uso crônico de corticoide, idosos, história de internação frequentes ou internações em UTI)",
+    "descriptores": [
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Início agudo após trauma",
+      "Exaustão",
+      "Descritor: apresentando tiragem intercostal.",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Saturação de O₂ < 85%",
+      "Descritor: Saturação de oxigênio < 95% com O₂ e < 90% em ar ambiente.",
+      "Uso inadequado da musculatura acessória"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Queixas Respiratórias (Falta de ar, obstrução nasal, tosse, história de asma (cuidado com o uso crônico de corticoide, idosos, história de internação frequentes ou internações em UTI)",
+    "descriptores": [
+      "Alteração do estado mental",
+      "Descritor: confusão mental, agitação, delírio.",
+      "Dor Cardíaca",
+      "Descritor: dor intensa em aperto no peito ou no pescoço, irradiando para o braço esquerdo ou pescoço. Pode-se associar a sudorese e náusea.",
+      "Incapacidade de falar sentenças",
+      "Estridor laríngeo ou dificuldade de falar",
+      "Descritor: estridor é um som resultante do fluxo turbulento de ar na via aérea superior.",
+      "Frequência cardíaca irregular ou alterada",
+      "Saturação de O₂ 85-89%",
+      "História respiratória importante",
+      "Descritor: internação hospitalar anterior por problema respiratório."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Queixas Respiratórias (Falta de ar, obstrução nasal, tosse, história de asma (cuidado com o uso crônico de corticoide, idosos, história de internação frequentes ou internações em UTI)",
+    "descriptores": [
+      "Saturação de O₂ 90-94%",
+      "Alteração de temperatura",
+      "Descritor: (< 35°C ou > 37,8°C)."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Queixas Respiratórias (Falta de ar, obstrução nasal, tosse, história de asma (cuidado com o uso crônico de corticoide, idosos, história de internação frequentes ou internações em UTI)",
+    "descriptores": [
+      "Dor de garganta",
+      "Descritor: com febre em placas sem toxemia.",
+      "Tosse produtiva",
+      "Saturação de O₂ ≥ 95%",
+      "Evento recente",
+      "Descritor: aparecimento < 7 dias.",
+      "História de chiado noturna"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Queixas Respiratórias (Falta de ar, obstrução nasal, tosse, história de asma (cuidado com o uso crônico de corticoide, idosos, história de internação frequentes ou internações em UTI)",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": [
+      "Prostração, palidez cutânea ou sudorese",
+      "Dor escrotal aguda",
+      "Descritor: em menores de 25 anos.",
+      "Priapismo",
+      "Descritor: ereção peniana dolorosa.",
+      "Dor intensa (7-10/10)",
+      "Hematúria",
+      "Descritor: presença anormal de eritrócitos na urina.",
+      "Gangrena escroto",
+      "Celulite de escroto",
+      "Retenção urinária aguda com bexigoma"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": [
+      "Disúria intensa com polaciúria e/ou hematúria",
+      "Dor moderada (4-6/10)",
+      "Alteração de temperatura",
+      "Descritor: (< 35°C ou > 37,8°C).",
+      "Vômito persistente"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": [
+      "Trauma superficial de escroto",
+      "Corrimento uretral amarelo fétido",
+      "Troca de sonda vesical obstruída",
+      "Dor leve (1-3/10)",
+      "Evento Recente",
+      "Descritor: evento recente < 7 dias."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Sangramentos",
+    "descriptores": [
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Distúrbio de coagulação",
+      "Descritor: pacientes hemofílicos.",
+      "Hemorragia severa",
+      "Descritor: sob uso de anticoagulante.",
+      "Distúrbio de coagulação de paciente cardiopata em uso de anticoagulante"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Sangramentos",
+    "descriptores": [
+      "Epistaxe SEM CONTROLE COM TAMPONAMENTO",
+      "Evacuação de sangue vivo ou alterado",
+      "História importante de sangramento digestivo",
+      "Dor intensa (7-10/10)",
+      "Alteração do nível de consciência",
+      "Descritor: não responde à voz ou dor ou é irresponsivo.",
+      "Vômito de sangue"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Sangramentos",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "Fezes enegrecidas ou em geleia de groselha",
+      "Descritor: presença de sangue fresco com coágulos nas fezes.",
+      "Sangramento vaginal",
+      "Vômito persistente"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Sangramentos",
+    "descriptores": [
+      "Evento recente",
+      "Descritor: Aparência < 7 dias.",
+      "Dor leve (1-3/10)",
+      "Relato de hemorragias",
+      "Relato de epistaxes"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Sangramentos",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Traumatismo Tórax-Abdominal",
+    "descriptores": [
+      "Comprometimento/Obstrução de vias aéreas",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Respiração inadequada",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Distúrbio de coagulação",
+      "Hemorragia severa",
+      "Descritor: sob uso de anticoagulante."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Traumatismo Tórax-Abdominal",
+    "descriptores": [
+      "Alteração do nível de consciência",
+      "Descritor: não totalmente alerta ou só responde à voz ou dor ou é irresponsivo.",
+      "Dispneia súbita",
+      "Descritor: sensação subjetiva de desconforto respiratório ou dificuldade para respirar.",
+      "Dor intensa (7-10/10)",
+      "Evisceração",
+      "Descritor: é uma lesão onde ocorre a extrusão de vísceras abdominais.",
+      "Grave mecanismo de trauma"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Traumatismo Tórax-Abdominal",
+    "descriptores": [
+      "Hemorragia controlável",
+      "Descritor: sangramento ativo contido por compressão.",
+      "Dor moderada (4-6/10)"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Traumatismo Tórax-Abdominal",
+    "descriptores": [
+      "Inflamação local",
+      "Descritor: edema, hiperemia, calor e rubor.",
+      "Dor leve (1-3/10)",
+      "Infecção local",
+      "Evento Recente",
+      "Descritor: evento recente < 7 dias."
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Traumatismo Tórax-Abdominal",
+    "descriptores": ["Nenhum dos determinantes anteriores"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Vermelho",
+    "queixa": "Traumas (quedas de altura, acidentes com veículos, esmagamentos e fraturas fechadas/contusas)",
+    "descriptores": [
+      "Comprometimento/Obstrução de vias aéreas",
+      "Descritor: presença de secreções, sangue, corpo estranho.",
+      "Sinais de isquemia",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm).",
+      "Fratura exposta"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Traumas (quedas de altura, acidentes com veículos, esmagamentos e fraturas fechadas/contusas)",
+    "descriptores": [
+      "Sinais neurológicos focais",
+      "Descritor: paresia, parestesia, disfagia, afasia, ataxia, distúrbio do equilíbrio.",
+      "Ferida com sangramento ativo",
+      "Dor intensa (7-10/10)",
+      "Edema",
+      "Descritor: (++/4++).",
+      "Alterações respiratórias",
+      "Descritor: FR < 10 ou ≥ 36 irpm com incapacidade de falar; cianose; letargia e/ou confusão mental; FC ≤ 40 ou ≥ 150 bpm.",
+      "Incapacidade de andar",
+      "Grave mecanismo de trauma"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Amarelo",
+    "queixa": "Traumas (quedas de altura, acidentes com veículos, esmagamentos e fraturas fechadas/contusas)",
+    "descriptores": [
+      "Dor moderada (4-7/10)",
+      "Ferimento sem sangramento ativo",
+      "Deformidade em membros",
+      "Cefaleia",
+      "Vômito",
+      "Descritor: se não se puder excluir trauma craniano, ingestão de drogas ou doença de base.",
+      "Sem sinais de isquemia",
+      "Sinais flogísticos locais",
+      "Descritor: edema, hiperemia, calor e rubor.",
+      "Limitação dos movimentos/função"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Verde",
+    "queixa": "Traumas (quedas de altura, acidentes com veículos, esmagamentos e fraturas fechadas/contusas)",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Edema articular sem flogose",
+      "Evento Recente",
+      "Descritor: evento recente < 7 dias.",
+      "Limitação leve dos movimentos",
+      "Sem perda de função"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Azul",
+    "queixa": "Traumas (quedas de altura, acidentes com veículos, esmagamentos e fraturas fechadas/contusas)",
+    "descriptores": ["Dor crônica não agudizada"],
+    "segmento": "adulto"
+  },
+  {
+    "classificacao": "Laranja",
+    "queixa": "Situações Especiais",
+    "descriptores": [
+      "Alterações de temperatura durante hemodiálise ou transplantados ou em uso de imunossupressor",
+      "Descritor: (Tax < 36,0° ou > 37,8°C).",
+      "Violência sexual e/ou intrafamiliar",
+      "Exposição sexual consentida",
+      "Pacientes escoltados",
+      "Assistidos por Equipe de Atenção Domiciliar",
+      "Incidente perfurante com material biológico",
+      "Suspeita clínica/epidemiológica de Dengue com sinais de gravidade",
+      "Descritor: são sinais de gravidade: dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos – ascite, derrame pleural, derrame pericárdico; hipotensão postural / pulso hipocinetico, hematócrito maior do que 2 acima do rebordo costal, sangramento de mucosa, letargia e/ou irritabilidade.",
+      "Retorno em período < 24 horas por ausência de melhora",
+      "Descritor: relato de piora dos sintomas e sinais de deterioração clínica: alterações de FC, temperatura, pressão arterial e nível de consciência.",
+      "Trauma em pacientes hemofílicos"
+    ],
+    "segmento": "adulto"
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Laranja",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": [
+      "Prostração, palidez cutânea ou sudorese",
+      "Dor escrotal aguda",
+      "Descritor: em menores de 25 anos.",
+      "Priapismo",
+      "Descritor: ereção peniana dolorosa.",
+      "Dor intensa",
+      "Descritor: 7-10/10, intolerável.",
+      "Hematúria",
+      "Descritor: presença anormal de eritrócitos na urina.",
+      "Gangrena escroto",
+      "Celulite de escroto",
+      "Retenção urinária aguda com bexigoma"
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Amarelo",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": [
+      "Disúria intensa com polaciúria e/ou hematúria",
+      "Dor moderada",
+      "Descritor: 4-6/10, suportável, mas intensa.",
+      "Alteração de temperatura",
+      "Descritor: (<35°C ou >37,8°C).",
+      "Vômito persistente"
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Verde",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": [
+      "Trauma superficial de escroto",
+      "Corrimento uretral amarelado fétido",
+      "Troca de sonda vesical obstruída",
+      "Dor leve",
+      "Descritor: 1-3/10.",
+      "Evento Recente",
+      "Descritor: evento recente < 7 dias."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Azul",
+    "queixa": "Queixas Urinárias / Dor Testicular",
+    "descriptores": ["Nenhum dos determinantes anteriores"]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Vermelho",
+    "queixa": "Tosse, falta de ar, dificuldade para respirar, respiração ruidosa, chiado no peito",
+    "descriptores": [
+      "PCR, bradicardia importante ou PCR iminente",
+      "Descritor: ausência de respiração; crise convulsiva; dificuldade ou ausência de respiração; ausência de sons cardíacos; ausência de pulso central; FR < 10 ou ausente; bradicardia < 60 bpm associada a má perfusão; taquipneia; alteração do nível de consciência.",
+      "Apneia, bradipneia ou movimentos torácicos paradoxais",
+      "Descritor: interrupção da respiração por 20 segundos, ou por qualquer tempo, quando associada a alteração do nível de consciência ou frequência cardíaca.",
+      "Via aérea obstruída",
+      "Descritor: início súbito de grave dificuldade respiratória sem febre ou sintomas respiratórios prévios; suspeita de corpo estranho; edema de lábio ou língua; em uso de traqueostomia (obstrução, deslocamento da mesma).",
+      "Cianose central",
+      "Descritor: língua, mucosas ou pele azuladas; ocorre devido a problemas no coração ou nos pulmões; o sangue já chega desoxigenado aos capilares por falta de oxigenação nos alvéolos pulmonares.",
+      "Paciente não responde, Glasgow < 8",
+      "Descritor: ausência de resposta ao estímulo verbal ou doloroso; agitação psicomotora ou sinais focais.",
+      "Falência respiratória",
+      "Descritor: sudorese; fadiga; chiado; diminuição ou ausência de movimentos ventilatórios (MV); batimento de asa de nariz (BAN); retrações subcostais; taquipneia; apneia; bradipneia; dispneia ou cianose; hipóxia (RN < 50 mmHg; lactentes < 1 ano: PaO2 < 60 mmHg; >1 ano: PaO2 < 80 mmHg)."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Laranja",
+    "queixa": "Tosse, falta de ar, dificuldade para respirar, respiração ruidosa, chiado no peito",
+    "descriptores": [
+      "Estridor laríngeo e dificuldade de falar ou mamar",
+      "Descritor: inspiração ruidosa ou difícil; respiração prejudicada pela fala ou durante a sucção ao mamar.",
+      "Edema labial e/ou de língua com sensação de garganta fechando",
+      "Descritor: início súbito de edema de língua ou lábio com sensação de garganta fechando; histórico de alergia; uso recente de alimentos ou medicamentos com potencial alergênico.",
+      "Dispneia moderada",
+      "Descritor: dispneia; BAN; retrações subcostais; gemência; histórico de asma quase fatal; fatores de risco e instabilidade hemodinâmica; necessidade de intubação e ventilação.",
+      "Lactente dispneico com recusa ou dificuldade para se alimentar",
+      "Descritor: BAN; retrações; respiração rápida ou difícil associada à alimentação de alimentos ou sólidos.",
+      "Saturação de O2 < 90%",
+      "Descritor: saturação entre 91-95%; grave < 90%.",
+      "Epistaxe com instabilidade hemodinâmica",
+      "Descritor: sangramento nasal ativo com comprometimento hemodinâmico.",
+      "Salivação excessiva",
+      "Descritor: salivação excessiva associada a desconforto respiratório.",
+      "Hemoptise franca",
+      "Descritor: hemorragia ativa das vias respiratórias.",
+      "Alteração de temperatura",
+      "Descritor: verificar quadro de parâmetro em anexo."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Amarelo",
+    "queixa": "Tosse, falta de ar, dificuldade para respirar, respiração ruidosa, chiado no peito",
+    "descriptores": [
+      "Taquipneia",
+      "Descritor: verificar quadro de parâmetro em anexo.",
+      "Dispneia leve",
+      "Descritor: incursões respiratórias de esforço leve; tiragens intercostais.",
+      "Saturação de O2 91-94%",
+      "Descritor: leve > 95%; moderada entre 91-95%; grave < 90%.",
+      "Tosse frequente e intermitente",
+      "Descritor: acessos de tosse seca espasmódica que culmina em vômito; sem estridor e sem dificuldade respiratória.",
+      "Alteração de temperatura",
+      "Descritor: verificar quadro de parâmetro em anexo."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Verde",
+    "queixa": "Tosse, falta de ar, dificuldade para respirar, respiração ruidosa, chiado no peito",
+    "descriptores": [
+      "Dor de garganta",
+      "Descritor: tosse sem desconforto respiratório; mau hálito e mal-estar e odinofagia.",
+      "Dor de ouvido",
+      "Descritor: tosse seca ou úmida; associada à dor de ouvido, mas sem sinais de acometimento sistêmico.",
+      "Rinorreia purulenta",
+      "Descritor: secreção nasal amarelada ou esverdeada; obstrução nasal e espirros sem sinais de acometimento sistêmico.",
+      "Temperatura entre 37,5°C e 38,4°C",
+      "Descritor: tosse seca ou úmida; associada a febre baixa, mas sem sinais de acometimento sistêmico.",
+      "Dor muscular",
+      "Descritor: sintomas respiratórios leves com relato ou sinais de dor muscular.",
+      "Saturação de O2 ≥ 95%"
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Azul",
+    "queixa": "Tosse, falta de ar, dificuldade para respirar, respiração ruidosa, chiado no peito",
+    "descriptores": [
+      "Coriza",
+      "Descritor: apenas coriza sem sinais sistêmicos."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Vermelho",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Alteração do nível de consciência",
+      "Descritor: escore na Escala de Coma de Glasgow (ECG < 9).",
+      "Comprometimento/obstrução de vias aéreas",
+      "Descritor: presença de secreções, sangue, corpo estranho.",
+      "Alterações glicêmicas",
+      "Descritor: glicemia ≥ 250 ou < 70 mg/dL.",
+      "Rigidez de nuca / muscular, hipertonicidade",
+      "Descritor: incapacidade de flexionar a cabeça para frente devido a rigidez muscular e resistência ao movimento passivo.",
+      "Sinais de choque",
+      "Descritor: hipotensão (PA sistólica ≤ 80 mmHg); taquicardia (FC ≥ 140 bpm) ou bradicardia (FC ≤ 40 bpm)."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Laranja",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Pulso anormal",
+      "Descritor: tipo de pulso arterial muito fraco.",
+      "Dor torácica",
+      "Descritor: dor intensa em aperto ou peso no meio do peito, irradiando para o braço esquerdo ou pescoço. Pode-se associar sudorese, náuseas e epigastralgia.",
+      "Distúrbio súbito do equilíbrio",
+      "Descritor: associado a náuseas e vômitos.",
+      "Dor intensa (7-10/10)",
+      "Descritor: dor intolerável, geralmente descrita como jamais sentida.",
+      "Em pós-comicial",
+      "Descritor: momento posterior a crise convulsiva que pode se caracterizar por perda da consciência, confusão ou desorientação.",
+      "Dispneia aguda",
+      "Descritor: sensação de dificuldade para respirar.",
+      "Alteração do nível de consciência",
+      "Descritor: escore na Escala de Coma de Glasgow (ECG 9-14).",
+      "Alteração de temperatura",
+      "Descritor: verificar quadro de parâmetro em anexo.",
+      "História importante de cefaleia",
+      "Descritor: relato de reação alérgica conhecida.",
+      "Cefaleia intensa (7-10/10) e início súbito",
+      "Descritor: dor intolerável descrita como \"A pior dor de cabeça da vida\".",
+      "Déficit neurológico agudo",
+      "Descritor: paresia, plegia, disfasia, afasia, ataxia, paralisia facial.",
+      "História de trauma crânio recente",
+      "Descritor: histórico recente inferior a sete dias."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Amarelo",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Dor moderada (4-6/10)",
+      "Em pós-comicial",
+      "Descritor: momento posterior a crise convulsiva que pode se caracterizar por perda da consciência, confusão ou desorientação.",
+      "Relato de primeira crise convulsiva",
+      "Crise convulsiva há menos de 12h e alerta"
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Verde",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": [
+      "Dor leve (1-3/10)",
+      "Parestesias bilaterais ou migratórias",
+      "Descritor: sensações cutâneas subjetivas (ex., frio, calor, formigamento, pressão) que são percebidas espontaneamente na ausência de estimulação."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Azul",
+    "queixa": "Desmaio, tontura, vertigem",
+    "descriptores": ["Nenhum dos determinantes anteriores"]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Vermelho",
+    "queixa": "Alterações no nível de consciência e sensório, paresias e paralisias",
+    "descriptores": [
+      "Apneia, bradipneia, ou movimentos tóraco abdominais paradoxais",
+      "Descritor: interrupção da respiração por 20 segundos, ou por qualquer tempo; quando associada a alteração na cor, tônus muscular ou frequência cardíaca; com dificuldade respiratória, salivação intensa, estridor; voz abafada e anexa.",
+      "Convulsão em atividade",
+      "Descritor: crise convulsiva em atividade.",
+      "Paciente não responde; Glasgow < 8",
+      "Descritor: ausência de resposta ao estímulo verbal ou doloroso; agitação psicomotora ou sinais focais.",
+      "Sinais de choque",
+      "Descritor: taquicardia; palidez acentuada; pele fria; sudorese; pulso fino; perfusão diminuída; taquipneia; irritabilidade; oligúria.",
+      "Glicemia < 50 mg/dl (ou RN < 60 mg/dl em crianças)",
+      "Descritor: glicemia < 50 mg/dl no RN (0 a 28 dias) e < 60 mg/dl em crianças.",
+      "Glicemia > 200 mg/dl"
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Laranja",
+    "queixa": "Alterações no nível de consciência e sensório, paresias e paralisias",
+    "descriptores": [
+      "Extrema agitação; choro inconsolável",
+      "Descritor: inquietação; resposta exacerbada aos estímulos; irritabilidade; choro incessante.",
+      "Vômitos incoercíveis",
+      "Descritor: vômitos que não cessam mesmo após medidas para alívio ou não tem intervalo entre os episódios, os mais episódicos de vômito na última hora.",
+      "Saturação de O2 ≤ 90%",
+      "Estado pós ictal ou déficit focal agudo",
+      "Descritor: história de convulsão e estado ictal anterior associada a um dos seguintes sinais: sonolência; liberação de esfíncteres (urina ou evacuação nas roupas); hipersecreção nasal; sinais focais.",
+      "Alteração de temperatura (<35ºC ou >40ºC)",
+      "Deficiência neurológica aguda",
+      "Descritor: déficit motor agudo de um membro ou face.",
+      "Tentativa de autoextermínio ou automutilação",
+      "Descritor: relato ou suspeita de autoextermínio.",
+      "Paciente psiquiátrico em surto",
+      "Descritor: paciente com história psiquiátrica que está em surto no momento.",
+      "Paralisia flácida aguda da MMII, simétrica ou assimétrica",
+      "Descritor: paralisia flácida simétrica de MMII, ou assimétrica acometendo qualquer membro."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Amarelo",
+    "queixa": "Alterações no nível de consciência e sensório, paresias e paralisias",
+    "descriptores": [
+      "Fraqueza muscular dos membros inferiores e/ou paresias de qualquer membro de início súbito",
+      "Descritor: fraqueza muscular de MMII de início súbito ou paresias em qualquer membro.",
+      "Saturação de O2 entre 91-94%",
+      "Vômitos moderados",
+      "Descritor: mais de 3 episódios de vômitos nas últimas 12 horas, porém sem vômitos incoercíveis.",
+      "Perda de consciência nas últimas 24 horas",
+      "Descritor: perda de consciência nas últimas 24 horas.",
+      "Deficiência neurológica NOVA",
+      "Descritor: déficit motor (paresia ou paralisia) acima de 24 horas."
+    ]
+  },
+  {
+    "segmento": "pediatria",
+    "classificacao": "Verde",
+    "queixa": "Alterações no nível de consciência e sensório, paresias e paralisias",
+    "descriptores": [
+      "Reação aguda ao stress",
+      "Descritor: desmaio; síncope.",
+      "Saturação de O2 ≥ 95%",
+      "Rinorreia purulenta",
+      "Descritor: secreção nasal amarela; severidade; obstrução nasal e espirros sem sinais de acometimento sistêmico.",
+      "Relato de perda de consciência de 24 horas",
+      "Descritor: história de perda de consciência recente.",
+      "Vômitos esparsos",
+      "Descritor: até 3 episódios de vômitos nas últimas 12 horas."
+    ]
+  }
+]

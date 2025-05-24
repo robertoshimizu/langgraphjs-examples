@@ -1,0 +1,1673 @@
+[
+    {
+        "title": "Solicita\u00e7\u00e3o de Avalia\u00e7\u00e3o da Hematologia pelo Pronto Atendimento",
+        "concepts": [
+            {
+                "Search String": "leukocytes",
+                "UI": "C0023516",
+                "Name": "Leukocytes",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0023516",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hemoglobin",
+                "UI": "C0019046",
+                "Name": "Hemoglobin",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0019046",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "platelets",
+                "UI": "C0005821",
+                "Name": "Blood Platelets",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0005821",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "pancytopenia",
+                "UI": "C0030312",
+                "Name": "Pancytopenia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0030312",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "coagulopathy",
+                "UI": "C0005779",
+                "Name": "Blood Coagulation Disorders",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0005779",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "thrombosis",
+                "UI": "C0040053",
+                "Name": "Thrombosis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0040053",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "splenomegaly",
+                "UI": "C0038002",
+                "Name": "Splenomegaly",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0038002",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "adenomegaly",
+                "UI": "C1504555",
+                "Name": "Adenomegaly",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1504555",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "sickle cell disease",
+                "UI": "C0002895",
+                "Name": "Anemia, Sickle Cell",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0002895",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "blasts",
+                "UI": "C0368761",
+                "Name": "Blast Cell",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0368761",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Bradiarritmias",
+        "concepts": [
+            {
+                "Search String": "bradyarrhythmia",
+                "UI": "C0079035",
+                "Name": "Bradyarrhythmia (disorder)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0079035",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "unstable",
+                "UI": "C0443343",
+                "Name": "Unstable status",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0443343",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "syncope",
+                "UI": "C0039070",
+                "Name": "Syncope",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0039070",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypotension",
+                "UI": "C0020649",
+                "Name": "Hypotension",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020649",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "mobitz ii",
+                "UI": "C0155700",
+                "Name": "Mobitz type II atrioventricular block",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155700",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "junctional rhythm",
+                "UI": "C0232208",
+                "Name": "Atrioventricular junctional rhythm",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0232208",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "sinus pause",
+                "UI": "C0541782",
+                "Name": "Atrial standstill",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0541782",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Manejo de Dor",
+        "concepts": [
+            {
+                "Search String": "mild pain",
+                "UI": "C0278138",
+                "Name": "Mild pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0278138",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "moderate pain",
+                "UI": "C0278139",
+                "Name": "Moderate pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0278139",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "severe pain",
+                "UI": "C0278140",
+                "Name": "Severe pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0278140",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "intense pain",
+                "UI": "C4086413",
+                "Name": "Have Very Intense Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4086413",
+                "Source Vocabulary": "NCI"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Exacerba\u00e7\u00e3o da Asma",
+        "concepts": [
+            {
+                "Search String": "dyspnea",
+                "UI": "C0013404",
+                "Name": "Dyspnea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0013404",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "wheezing",
+                "UI": "C0043144",
+                "Name": "Wheezing",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0043144",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "tachypnea",
+                "UI": "C0231835",
+                "Name": "Tachypnea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0231835",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "cyanosis",
+                "UI": "C0010520",
+                "Name": "Cyanosis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0010520",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "accessory muscles",
+                "UI": "C0158784",
+                "Name": "Accessory skeletal muscle",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0158784",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "acute respiratory failure",
+                "UI": "C0264490",
+                "Name": "Acute respiratory failure",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0264490",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hemodynamic instability",
+                "UI": "C0948268",
+                "Name": "Hemodynamic instability",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0948268",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "mental confusion",
+                "UI": "C0009676",
+                "Name": "Confusion",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0009676",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Herpes Zoster",
+        "concepts": [
+            {
+                "Search String": "paresthesia",
+                "UI": "C0030554",
+                "Name": "Paresthesia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0030554",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "headache",
+                "UI": "C0018681",
+                "Name": "Headache",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0018681",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "varicella virus",
+                "UI": "C0042338",
+                "Name": "herpesvirus 3, human",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0042338",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "neuralgic pain",
+                "UI": "C0751135",
+                "Name": "Neuralgic Facial Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0751135",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "erythematous vesicles",
+                "UI": "C2014085",
+                "Name": "erythematous vesicles of oropharynx",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2014085",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "ophthalmic complications",
+                "UI": "C0851730",
+                "Name": "Diabetic complications ophthalmic",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0851730",
+                "Source Vocabulary": "MDR"
+            },
+            {
+                "Search String": "neurological",
+                "UI": "C2707261",
+                "Name": "Neurological:-:Pt:^Patient:-",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2707261",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para S\u00edncope",
+        "concepts": [
+            {
+                "Search String": "syncope",
+                "UI": "C0039070",
+                "Name": "Syncope",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0039070",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "unstable patient",
+                "UI": "C2215499",
+                "Name": "admission to trauma bay patient unstable",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2215499",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "arrhythmia",
+                "UI": "C0003811",
+                "Name": "Cardiac Arrhythmia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0003811",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "ischemia",
+                "UI": "C0022116",
+                "Name": "Ischemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0022116",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "sudden loss",
+                "UI": "C0155002",
+                "Name": "Sudden Visual Loss",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155002",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "structural heart disease",
+                "UI": "C1290384",
+                "Name": "Structural disorder of heart",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1290384",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "sudden death",
+                "UI": "C0011071",
+                "Name": "Sudden death",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0011071",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypoglycemia",
+                "UI": "C0020615",
+                "Name": "Hypoglycemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020615",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "epileptic seizure",
+                "UI": "C0014544",
+                "Name": "Epilepsy",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0014544",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Constipa\u00e7\u00e3o Cr\u00f4nica",
+        "concepts": [
+            {
+                "Search String": "chronic constipation",
+                "UI": "C0401149",
+                "Name": "Chronic constipation",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0401149",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "abdominal pain",
+                "UI": "C0000737",
+                "Name": "Abdominal Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0000737",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "abdominal distension",
+                "UI": "C0000731",
+                "Name": "Abdomen distended",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0000731",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "intestinal bleeding",
+                "UI": "C0267373",
+                "Name": "Intestinal hemorrhage NOS",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0267373",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "anemia",
+                "UI": "C0002871",
+                "Name": "Anemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0002871",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "weight loss",
+                "UI": "C1262477",
+                "Name": "Weight Loss",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1262477",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "mechanical bowel obstruction",
+                "UI": "C5408727",
+                "Name": "Mechanical removal of obstructive material from stomach, large, or small bowel tube using fluoroscopic guidance",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5408727",
+                "Source Vocabulary": "CPT"
+            },
+            {
+                "Search String": "confirmed obstruction",
+                "UI": "C5884121",
+                "Name": "Spirometry results with confirmed airflow obstruction (fev1/fvc < 70%) documented and reviewed",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5884121",
+                "Source Vocabulary": "HCPCS"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Edema Agudo de Pulm\u00e3o",
+        "concepts": [
+            {
+                "Search String": "acute pulmonary edema",
+                "UI": "C0155919",
+                "Name": "Acute pulmonary edema",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155919",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "dyspnea",
+                "UI": "C0013404",
+                "Name": "Dyspnea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0013404",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "tachypnea",
+                "UI": "C0231835",
+                "Name": "Tachypnea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0231835",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "pink expectoration",
+                "UI": "C0239318",
+                "Name": "EXPECTORATION PINK",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0239318",
+                "Source Vocabulary": "DXP"
+            },
+            {
+                "Search String": "pulmonary congestion",
+                "UI": "C0242073",
+                "Name": "Pulmonary congestion",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0242073",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "rales",
+                "UI": "C0034642",
+                "Name": "Rales",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0034642",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "wheezing",
+                "UI": "C0043144",
+                "Name": "Wheezing",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0043144",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Dor Lombar Grave",
+        "concepts": [
+            {
+                "Search String": "severe low back pain",
+                "UI": "C2219816",
+                "Name": "excruciating lower back pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2219816",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "persistence of pain",
+                "UI": "C0410816",
+                "Name": "Persistent prosthetic joint pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0410816",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "hospitalization",
+                "UI": "C0019993",
+                "Name": "Hospitalization",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0019993",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "intravenous medication",
+                "UI": "C0812149",
+                "Name": "Medication administration: intravenous",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0812149",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "reassess",
+                "UI": "C4717062",
+                "Name": "Strategies to reassess commitment priorities",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4717062",
+                "Source Vocabulary": "NOC"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Taquiarritmias",
+        "concepts": [
+            {
+                "Search String": "palpitations",
+                "UI": "C0030252",
+                "Name": "Palpitations",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0030252",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "malaise",
+                "UI": "C0231218",
+                "Name": "Malaise",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0231218",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "unstable",
+                "UI": "C0443343",
+                "Name": "Unstable status",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0443343",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "narrow qrs",
+                "UI": "C0429027",
+                "Name": "Narrow QRS complex",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0429027",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "wide qrs",
+                "UI": "C0235475",
+                "Name": "Wide QRS complex",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0235475",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "torsades",
+                "UI": "C0040479",
+                "Name": "Torsades de Pointes",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0040479",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Febre",
+        "concepts": [
+            {
+                "Search String": "fever",
+                "UI": "C0015967",
+                "Name": "Fever",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0015967",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypotension",
+                "UI": "C0020649",
+                "Name": "Hypotension",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020649",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "tachycardia",
+                "UI": "C0039231",
+                "Name": "Tachycardia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0039231",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "confusion",
+                "UI": "C0009676",
+                "Name": "Confusion",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0009676",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypoxemia",
+                "UI": "C0700292",
+                "Name": "Hypoxemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0700292",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "meningitis",
+                "UI": "C0025289",
+                "Name": "Meningitis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0025289",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "endocarditis",
+                "UI": "C0014118",
+                "Name": "Endocarditis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0014118",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Trombose Venosa Profunda (TVP)",
+        "concepts": [
+            {
+                "Search String": "wells score",
+                "UI": "C1997143",
+                "Name": "Wells deep vein thrombosis clinical probability score",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1997143",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "d-dimer",
+                "UI": "C1114118",
+                "Name": "Deprecated Fibrin D-dimer",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1114118",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "doppler ultrasound",
+                "UI": "C0162481",
+                "Name": "Doppler Ultrasound (procedure)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0162481",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "high probability",
+                "UI": "C4699572",
+                "Name": "High probability",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4699572",
+                "Source Vocabulary": "LNC"
+            },
+            {
+                "Search String": "moderate probability",
+                "UI": "C2067475",
+                "Name": "PTCA of AM-2 of RCA: moderate probability of success (60-85%)/moderate risk",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2067475",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "low probability",
+                "UI": "C4699573",
+                "Name": "Low probability",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4699573",
+                "Source Vocabulary": "LNC"
+            },
+            {
+                "Search String": "deep vein thrombosis",
+                "UI": "C0149871",
+                "Name": "Deep Vein Thrombosis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0149871",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "asymmetric edema",
+                "UI": "C0745825",
+                "Name": "LOWER EXTREMITY EDEMA ASYMMETRIC",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0745825",
+                "Source Vocabulary": "CCPSS"
+            },
+            {
+                "Search String": "vascular surgery",
+                "UI": "C3714645",
+                "Name": "Vascular surgery specialty",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C3714645",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "anticoagulation",
+                "UI": "C0003281",
+                "Name": "Anticoagulation Therapy",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0003281",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "rinossinusite_aguda",
+        "concepts": [
+            {
+                "Search String": "obstruction/congestion",
+                "UI": "C0340418",
+                "Name": "Congestive obstructive cardiomyopathy",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0340418",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "purulent secretion",
+                "UI": "C2125220",
+                "Name": "bronchoscopy purulent secretions of left anteromedial basal segmental bronchus",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2125220",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "fever",
+                "UI": "C0015967",
+                "Name": "Fever",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0015967",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "double worsening",
+                "UI": "C2095839",
+                "Name": "post-operative double vision worsened",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2095839",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "periorbital edema",
+                "UI": "C0151205",
+                "Name": "Periorbital edema",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0151205",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "eyeball displacement",
+                "UI": "C1408768",
+                "Name": "eyeball; displacement, congenital",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1408768",
+                "Source Vocabulary": "ICPC2ICD10ENG"
+            },
+            {
+                "Search String": "diplopia",
+                "UI": "C0012569",
+                "Name": "Diplopia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0012569",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "ophthalmoplegia",
+                "UI": "C0029089",
+                "Name": "Ophthalmoplegia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0029089",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para TEP (Tromboembolismo Pulmonar)",
+        "concepts": [
+            {
+                "Search String": "sudden shortness",
+                "UI": "C1827873",
+                "Name": "Sudden onset AND short duration",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1827873",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "hemoptysis",
+                "UI": "C0019079",
+                "Name": "Hemoptysis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0019079",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "unstable",
+                "UI": "C0443343",
+                "Name": "Unstable status",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0443343",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "high probability",
+                "UI": "C4699572",
+                "Name": "High probability",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4699572",
+                "Source Vocabulary": "LNC"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Conjuntivite",
+        "concepts": [
+            {
+                "Search String": "conjunctival hyperemia",
+                "UI": "C1761613",
+                "Name": "Conjunctival hyperemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1761613",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "tearing",
+                "UI": "C0152227",
+                "Name": "Excessive tearing",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0152227",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "eyelid edema",
+                "UI": "C0162285",
+                "Name": "Edema of eyelid",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0162285",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "subconjunctival hemorrhage",
+                "UI": "C0038534",
+                "Name": "Subconjunctival hemorrhage",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0038534",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Vertigem",
+        "concepts": [
+            {
+                "Search String": "vertigo",
+                "UI": "C0042571",
+                "Name": "Vertigo",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0042571",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "nystagmus",
+                "UI": "C0028738",
+                "Name": "Nystagmus",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0028738",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "peripheral vertigo",
+                "UI": "C0155501",
+                "Name": "Vertigo, Peripheral",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155501",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "central vertigo",
+                "UI": "C0155503",
+                "Name": "Central Nervous System Origin Vertigo",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155503",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "brainstem stroke",
+                "UI": "C0451671",
+                "Name": "Brainstem stroke syndrome",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0451671",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "vestibular neuronitis",
+                "UI": "C0751908",
+                "Name": "Vestibular Neuronitis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0751908",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "bppv",
+                "UI": "C0155502",
+                "Name": "Benign Paroxysmal Positional Vertigo",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155502",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "gaze fixation",
+                "UI": "C0016183",
+                "Name": "Fixation, Ocular",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0016183",
+                "Source Vocabulary": "MSH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Exacerba\u00e7\u00e3o da DPOC",
+        "concepts": [
+            {
+                "Search String": "exacerbation",
+                "UI": "C4086268",
+                "Name": "Exacerbation",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4086268",
+                "Source Vocabulary": "NCI"
+            },
+            {
+                "Search String": "hypoxemia",
+                "UI": "C0700292",
+                "Name": "Hypoxemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0700292",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "respiratory acidosis",
+                "UI": "C0001127",
+                "Name": "Acidosis, Respiratory",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0001127",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "paco2",
+                "UI": "C2237105",
+                "Name": "arterial blood PaCO2",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2237105",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "pao2",
+                "UI": "C1283004",
+                "Name": "PO2 measurement",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1283004",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "accessory muscles",
+                "UI": "C0158784",
+                "Name": "Accessory skeletal muscle",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0158784",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "central cyanosis",
+                "UI": "C0521800",
+                "Name": "Central cyanosis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0521800",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "acute respiratory failure",
+                "UI": "C0264490",
+                "Name": "Acute respiratory failure",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0264490",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Resfriado Comum - Adulto",
+        "concepts": [
+            {
+                "Search String": "cough",
+                "UI": "C0010200",
+                "Name": "Coughing",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0010200",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "headache",
+                "UI": "C0018681",
+                "Name": "Headache",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0018681",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "sneezing",
+                "UI": "C0037383",
+                "Name": "Sneezing",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0037383",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "rhinorrhea",
+                "UI": "C1260880",
+                "Name": "Rhinorrhea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1260880",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "nasal congestion",
+                "UI": "C0027424",
+                "Name": "Nasal congestion (finding)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0027424",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "sore throat",
+                "UI": "C0242429",
+                "Name": "Sore Throat",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0242429",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "allergic rhinitis",
+                "UI": "C2607914",
+                "Name": "Allergic rhinitis (disorder)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2607914",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "viral",
+                "UI": "C0521026",
+                "Name": "Viral",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0521026",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Cefaleia",
+        "concepts": [
+            {
+                "Search String": "sudden onset",
+                "UI": "C1276802",
+                "Name": "Sudden onset (attribute)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1276802",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "age",
+                "UI": "C0001779",
+                "Name": "Age",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0001779",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "focal neurological deficit",
+                "UI": "C0746857",
+                "Name": "Focal Neurologic Deficits",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0746857",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "papilledema",
+                "UI": "C0030353",
+                "Name": "Papilledema",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0030353",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "migraine",
+                "UI": "C0149931",
+                "Name": "Migraine Disorders",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0149931",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "tension-type headache",
+                "UI": "C0033893",
+                "Name": "Tension Headache",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0033893",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "cluster headache",
+                "UI": "C0009088",
+                "Name": "Cluster Headache",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0009088",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "nausea/vomiting",
+                "UI": "C0027498",
+                "Name": "Nausea and vomiting",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0027498",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "photophobia",
+                "UI": "C0085636",
+                "Name": "Photophobia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0085636",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "phonophobia",
+                "UI": "C0751466",
+                "Name": "Phonophobia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0751466",
+                "Source Vocabulary": "MSH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Emerg\u00eancia Hipertensiva",
+        "concepts": [
+            {
+                "Search String": "hypertensive emergency",
+                "UI": "C0745136",
+                "Name": "Hypertensive emergency",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0745136",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypertensive urgency",
+                "UI": "C0745138",
+                "Name": "Hypertensive Urgency",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0745138",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "encephalopathy",
+                "UI": "C0085584",
+                "Name": "Encephalopathies",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0085584",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "ischemic stroke",
+                "UI": "C0948008",
+                "Name": "Ischemic stroke",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0948008",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hemorrhagic stroke",
+                "UI": "C5234922",
+                "Name": "Hemorrhagic Stroke",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5234922",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "aortic dissection",
+                "UI": "C0340643",
+                "Name": "Dissection of aorta",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0340643",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "acute pulmonary edema",
+                "UI": "C0155919",
+                "Name": "Acute pulmonary edema",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0155919",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "imminent risk",
+                "UI": "C5539396",
+                "Name": "Imminent risk of homelessness",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5539396",
+                "Source Vocabulary": "ICD10CM"
+            },
+            {
+                "Search String": "organ involvement",
+                "UI": "C0457577",
+                "Name": "Multi-organ involvement",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0457577",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "target lesion",
+                "UI": "C0014742",
+                "Name": "Erythema Multiforme",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0014742",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Lombalgia Moderada",
+        "concepts": [
+            {
+                "Search String": "persistence of pain",
+                "UI": "C0410816",
+                "Name": "Persistent prosthetic joint pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0410816",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "pain relief",
+                "UI": "C0451615",
+                "Name": "Pain relief",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0451615",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "low back pain",
+                "UI": "C0024031",
+                "Name": "Low Back Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0024031",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "moderate",
+                "UI": "C5201148",
+                "Name": "Moderate",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5201148",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "persistent pain",
+                "UI": "C0560253",
+                "Name": "Persistent testicular pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0560253",
+                "Source Vocabulary": "SNOMEDCT_US"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Tontura",
+        "concepts": [
+            {
+                "Search String": "dizziness",
+                "UI": "C0012833",
+                "Name": "Dizziness",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0012833",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "weakness",
+                "UI": "C3714552",
+                "Name": "Weakness",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C3714552",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "neurocardiogenic syncope",
+                "UI": "C1836438",
+                "Name": "Familial neurocardiogenic syncope",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1836438",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "cardiac arrhythmia",
+                "UI": "C0003811",
+                "Name": "Cardiac Arrhythmia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0003811",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypoglycemia",
+                "UI": "C0020615",
+                "Name": "Hypoglycemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020615",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "postural hypotension",
+                "UI": "C0020651",
+                "Name": "Hypotension, Orthostatic",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020651",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "malaise",
+                "UI": "C0231218",
+                "Name": "Malaise",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0231218",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de C\u00f3lica Nefr\u00e9tica",
+        "concepts": [
+            {
+                "Search String": "flank pain",
+                "UI": "C0016199",
+                "Name": "Flank Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0016199",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "inguinal pain",
+                "UI": "C0239783",
+                "Name": "Inguinal pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0239783",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "hematuria",
+                "UI": "C0018965",
+                "Name": "Hematuria",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0018965",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "refractory pain",
+                "UI": "C0030200",
+                "Name": "Pain, Intractable",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0030200",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "pyelocaliceal dilatation",
+                "UI": "C4313419",
+                "Name": "Pyelocalyceal dilatation",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4313419",
+                "Source Vocabulary": "OMIM"
+            },
+            {
+                "Search String": "ira",
+                "UI": "C2817684",
+                "Name": "Ira <Ennominae>",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2817684",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "stone size",
+                "UI": "C0449454",
+                "Name": "Stone size (observable entity)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0449454",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "pregnant",
+                "UI": "C0549206",
+                "Name": "Patient currently pregnant",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0549206",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "icu admission",
+                "UI": "C5848658",
+                "Name": "ICU admission ID",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5848658",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para Pneumonia Comunit\u00e1ria (em Imunocompetentes)",
+        "concepts": [
+            {
+                "Search String": "community-acquired pneumonia",
+                "UI": "C0694549",
+                "Name": "Community-Acquired Pneumonia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0694549",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "dyspnea",
+                "UI": "C0013404",
+                "Name": "Dyspnea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0013404",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypoxemia",
+                "UI": "C0700292",
+                "Name": "Hypoxemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0700292",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "pulmonary opacity",
+                "UI": "C4531104",
+                "Name": "Pulmonary opacity",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4531104",
+                "Source Vocabulary": "HPO"
+            },
+            {
+                "Search String": "acute respiratory failure",
+                "UI": "C0264490",
+                "Name": "Acute respiratory failure",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0264490",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hemodynamic instability",
+                "UI": "C0948268",
+                "Name": "Hemodynamic instability",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0948268",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "mental confusion",
+                "UI": "C0009676",
+                "Name": "Confusion",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0009676",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Hemorragia Digestiva Alta",
+        "concepts": [
+            {
+                "Search String": "vomiting",
+                "UI": "C0042963",
+                "Name": "Vomiting",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0042963",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "coffee grounds",
+                "UI": "C0278002",
+                "Name": "Vomit contains coffee grounds (finding)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0278002",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "tachycardia",
+                "UI": "C0039231",
+                "Name": "Tachycardia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0039231",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hypotension",
+                "UI": "C0020649",
+                "Name": "Hypotension",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020649",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "cirrhosis",
+                "UI": "C0023890",
+                "Name": "Liver Cirrhosis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0023890",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "portal hypertension",
+                "UI": "C0020541",
+                "Name": "Portal Hypertension",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0020541",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "upper gastrointestinal bleeding",
+                "UI": "C0041909",
+                "Name": "Upper gastrointestinal hemorrhage",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0041909",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "rectal examination",
+                "UI": "C0199900",
+                "Name": "Rectal examination",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0199900",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "schistosomiasis",
+                "UI": "C0036323",
+                "Name": "Schistosomiasis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0036323",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "ulcer",
+                "UI": "C0041582",
+                "Name": "Ulcer",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0041582",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Insufici\u00eancia Card\u00edaca Congestiva (ICC) Descompensada",
+        "concepts": [
+            {
+                "Search String": "oliguria",
+                "UI": "C0028961",
+                "Name": "Oliguria",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0028961",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "thready pulses",
+                "UI": "C0232132",
+                "Name": "Weak arterial pulse",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0232132",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "cold extremities",
+                "UI": "C0277925",
+                "Name": "Cold extremity",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0277925",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "orthopnea",
+                "UI": "C0085619",
+                "Name": "Orthopnea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0085619",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "jugular venous distention",
+                "UI": "C2048840",
+                "Name": "increased jugular venous distention",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2048840",
+                "Source Vocabulary": "MEDCIN"
+            },
+            {
+                "Search String": "hepatomegaly",
+                "UI": "C0019209",
+                "Name": "Hepatomegaly",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0019209",
+                "Source Vocabulary": "MSH"
+            },
+            {
+                "Search String": "lower limb edema",
+                "UI": "C0239340",
+                "Name": "Edema of lower extremity",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0239340",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "reduced pulse pressure",
+                "UI": "C4713670",
+                "Name": "Monitor for physiological changes related to loss of vascular tone (e.g., note decreased BP, bradycardia, tachypnea, reduced pulse pressure, anxiety, oliguria)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4713670",
+                "Source Vocabulary": "NIC"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo para ITU Complicada (Infec\u00e7\u00e3o do Trato Urin\u00e1rio)",
+        "concepts": [
+            {
+                "Search String": "fever",
+                "UI": "C0015967",
+                "Name": "Fever",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0015967",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "abdominal pain",
+                "UI": "C0000737",
+                "Name": "Abdominal Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0000737",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "hematuria",
+                "UI": "C0018965",
+                "Name": "Hematuria",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0018965",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "dysuria",
+                "UI": "C0013428",
+                "Name": "Dysuria",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0013428",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "polyuria",
+                "UI": "C0032617",
+                "Name": "Polyuria",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0032617",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "mental confusion",
+                "UI": "C0009676",
+                "Name": "Confusion",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0009676",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "vomiting",
+                "UI": "C0042963",
+                "Name": "Vomiting",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0042963",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "immunocompromised",
+                "UI": "C0085393",
+                "Name": "Immunocompromised Host",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0085393",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "kidney stones",
+                "UI": "C0392525",
+                "Name": "Nephrolithiasis",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0392525",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "urinary tract infection",
+                "UI": "C0042029",
+                "Name": "Urinary tract infection",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0042029",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Diarreia Aguda",
+        "concepts": [
+            {
+                "Search String": "diarrhea",
+                "UI": "C0011991",
+                "Name": "Diarrhea",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0011991",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "fever",
+                "UI": "C0015967",
+                "Name": "Fever",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0015967",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "blood",
+                "UI": "C0005767",
+                "Name": "Blood",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0005767",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "mucus",
+                "UI": "C0026727",
+                "Name": "Mucus (substance)",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0026727",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "immunodepression",
+                "UI": "C1334159",
+                "Name": "Immunodeficiency-Related Disorder",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C1334159",
+                "Source Vocabulary": "NCI"
+            },
+            {
+                "Search String": "abdominal pain",
+                "UI": "C0000737",
+                "Name": "Abdominal Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0000737",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "signs of dehydration",
+                "UI": "C5924540",
+                "Name": "Signs of dehydration",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C5924540",
+                "Source Vocabulary": "SNOMEDCT_US"
+            }
+        ]
+    },
+    {
+        "title": "Fluxo de Dissec\u00e7\u00e3o de Aorta",
+        "concepts": [
+            {
+                "Search String": "aortic dissection",
+                "UI": "C0340643",
+                "Name": "Dissection of aorta",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0340643",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "chest pain",
+                "UI": "C0008031",
+                "Name": "Chest Pain",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0008031",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "aortic diastolic murmur",
+                "UI": "C0425632",
+                "Name": "Aortic diastolic murmur",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0425632",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "cardiac tamponade",
+                "UI": "C0007177",
+                "Name": "Cardiac Tamponade",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0007177",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "limb ischemia",
+                "UI": "C2945695",
+                "Name": "Limb ischemia",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C2945695",
+                "Source Vocabulary": "SNOMEDCT_US"
+            },
+            {
+                "Search String": "stroke",
+                "UI": "C0038454",
+                "Name": "Cerebrovascular accident",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C0038454",
+                "Source Vocabulary": "MTH"
+            },
+            {
+                "Search String": "ami",
+                "UI": "C4319936",
+                "Name": "Ami <Theraphosidae>",
+                "URI": "https://uts-ws.nlm.nih.gov/rest/content/2024AB/CUI/C4319936",
+                "Source Vocabulary": "MTH"
+            }
+        ]
+    }
+]
