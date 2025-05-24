@@ -19,16 +19,25 @@ This directory contains multiple LangGraph.js examples showcasing different agen
 - **Description**: Self-correcting Retrieval Augmented Generation agent
 - **Features**: Document retrieval, relevance grading, query transformation, answer validation
 
-### 4. Medical Researcher Agent (`researcher_agent`)
-- **Location**: `src/agents/researcher/researcher_agent.ts`
-- **Description**: Advanced medical research agent with multi-source data integration
-- **Features**: 
-  - Medical protocol search and analysis
-  - Multi-layered caching (Redis/In-memory)
-  - Google Search & Translation integration
-  - Vector search with Pinecone
-  - Medical code lookups (TUSS, DUT, ICD-11)
-  - Research workflow orchestration
+### 4. Medical Researcher Agent (`researcher_agent`) ⭐
+- **Location**: `src/agents/researcher/researcher_agent.ts` 
+- **Description**: Production-ready medical AI assistant providing evidence-based healthcare information
+- **Purpose**: A sophisticated medical research system that acts as a medical librarian + fact-checker + content generator
+- **Core Workflow** (6-step process):
+  1. **Route Medicine** - Classifies healthcare queries using Gemini
+  2. **Topic Router** - Orchestrates research with intelligent caching  
+  3. **Research Sources** - Parallel searches across medical databases
+  4. **Final Redaktor** - Generates 400-800 word responses with citations
+  5. **Text Revisor** - AI-powered fact-checking for hallucination detection
+  6. **Finalize** - Caches results and state cleanup
+- **Advanced Features**:
+  - **Multi-source research**: Medical protocols, drug databases, clinical guidelines
+  - **Intelligent caching**: Similarity matching (0.85 threshold) prevents duplicate research
+  - **Hallucination prevention**: Source verification with retry mechanisms (max 2 attempts)
+  - **Multi-model orchestration**: GPT-4o (reasoning), Gemini 2.0 (validation), Gemma 3-27B (generation)
+  - **Medical domain expertise**: Brazilian healthcare tools (TUSS, DUT, ICD-11)
+  - **Production-grade**: 936 lines with comprehensive error handling and structured logging
+- **Architecture**: Enterprise-level LangGraph.js patterns with modular services, conditional routing, and parallel execution
 
 ## Project Structure
 
