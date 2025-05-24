@@ -159,6 +159,126 @@ After the package upgrades, **LangGraph Studio now requires explicit JSON messag
 ## Projects
 
 - [Intro](./intro/README.md) - Introduction to LangGraph.js, Studio, and Cloud.
+  - **Simple Agent**: Basic ReAct agent with web search capabilities
+  - **React Agent**: Standard React pattern implementation  
+  - **Self-RAG Agent**: Self-Reflective Retrieval-Augmented Generation with quality control loops
 - [Human in the Loop](./human_in_the_loop/README.md) - Introduction to Human in the Loop (HITL) concepts.
 - [Stockbroker](./stockbroker/README.md) - A full stack stockbroker & financial analyst app, with HITL for purchasing stocks.
 - Streaming Messages ([Examples](./streaming_messages/README.md), [Frontend](./streaming_messages_frontend/README.md)) - Next.js web app connected to a LangGraph Cloud deployment to show off different message streaming types.
+
+## Featured: Self-RAG Agent
+
+**Self-Reflective Retrieval-Augmented Generation** - An intelligent question-answering system that retrieves documents, reflects on their quality, and self-corrects to provide better answers. It's like a researcher that double-checks their sources and rewrites their queries when needed.
+
+### Key Innovation: Self-Reflection
+
+Unlike basic RAG that just retrieves → generates, Self-RAG adds **quality control loops**:
+- **Document Relevance Grading**: "Are these documents actually relevant?"
+- **Answer Grounding Check**: "Is my answer supported by the documents?"
+- **Answer Usefulness Check**: "Does this actually answer the question?"
+- **Query Transformation**: "Can I ask a better question?"
+
+### How It Works
+
+#### 1. Initial Retrieval
+```
+User: "What are AI agents?"
+↓
+• Scrapes content from 3 URLs (Lilian Weng's blog posts)
+• Splits into chunks, creates embeddings
+• Retrieves relevant documents
+```
+
+#### 2. Document Quality Control
+```
+For each retrieved document:
+• LLM grades: "Is this relevant to the question?" (yes/no)
+• Filters out irrelevant documents
+• If no good documents → transform query and retry
+```
+
+#### 3. Answer Generation
+```
+If good documents found:
+• Generate answer using RAG prompt
+• Uses retrieved context + original question
+
+If failed 3+ times:
+• Fall back to Tavily web search
+• Generate answer from web results
+```
+
+#### 4. Answer Quality Checks
+
+**Check 1: Document Grounding**
+```
+• "Is this answer supported by the retrieved documents?"
+• If NO → regenerate answer
+```
+
+**Check 2: Question Usefulness**
+```
+• "Does this answer actually address the user's question?"
+• If NO → transform query and start over
+```
+
+#### 5. Self-Correction Loops
+
+The agent can:
+- **Retry retrieval** with better queries (up to 3 times)
+- **Regenerate answers** if not grounded in documents
+- **Fall back to web search** if retrieval consistently fails
+
+### Workflow Diagram
+
+```
+User Question
+      ↓
+   Retrieve Docs
+      ↓
+   Grade Docs ──→ Bad docs? ──→ Transform Query ──┐
+      ↓                                           │
+   Good docs                                      │
+      ↓                                           │
+   Generate Answer ←──────────────────────────────┘
+      ↓
+   Check: Grounded in docs? ──→ No ──→ Regenerate
+      ↓ Yes
+   Check: Answers question? ──→ No ──→ Transform Query
+      ↓ Yes
+   Final Answer
+```
+
+### Real-World Example
+
+**User**: "How do AI agents plan their actions?"
+
+**Self-RAG Process**:
+1. **Retrieve**: Gets documents about AI planning
+2. **Grade**: "Document 1: YES, Document 2: NO" → Keeps only relevant ones
+3. **Generate**: Creates answer from good documents  
+4. **Check Grounding**: "Is this answer supported?" → YES
+5. **Check Usefulness**: "Does this answer the planning question?" → YES
+6. **Return**: High-quality, verified answer
+
+### Why It's Better Than Basic RAG
+
+| Basic RAG | Self-RAG |
+|-----------|----------|
+| Retrieve → Generate | Retrieve → Grade → Generate → Verify |
+| No quality control | Multiple quality checks |
+| Static queries | Adaptive query improvement |
+| Can hallucinate | Self-corrects hallucinations |
+| One-shot process | Iterative refinement |
+
+### Key Components in Code
+
+- **`gradeDocuments`**: LLM judges document relevance
+- **`generateGenerationVDocumentsGrade`**: Checks answer grounding
+- **`generateGenerationVQuestionGrade`**: Checks answer usefulness
+- **`transformQuery`**: Improves questions for better retrieval
+- **`shouldContinue`**: Controls the self-correction loops
+
+**Example execution trace**: [View Self-RAG in LangSmith](https://smith.langchain.com/public/68a08335-9e04-407d-a7a6-70d2212df14a/r)
+
+This creates a **self-improving research assistant** that produces higher-quality, more reliable answers by continuously checking and correcting its own work!
