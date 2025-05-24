@@ -14,13 +14,24 @@ const cacheImplementation =
 
 /**
  * Create and export the appropriate cache repository implementation
+ * with fallback to in-memory if Redis fails
  */
-export const cacheRepository: ICacheRepository = 
-  cacheImplementation === 'redis' 
-    ? new RedisCacheRepository() 
-    : new InMemoryCacheRepository();
+let cacheRepository: ICacheRepository;
 
-// Log which cache implementation is being used
-console.log(`Using ${cacheImplementation} cache implementation`);
+try {
+  if (cacheImplementation === 'redis') {
+    cacheRepository = new RedisCacheRepository();
+    console.log(`Using ${cacheImplementation} cache implementation`);
+  } else {
+    cacheRepository = new InMemoryCacheRepository();
+    console.log(`Using ${cacheImplementation} cache implementation`);
+  }
+} catch (error) {
+  console.warn(`Failed to initialize ${cacheImplementation} cache, falling back to memory:`, error);
+  cacheRepository = new InMemoryCacheRepository();
+  console.log(`Using memory cache implementation (fallback)`);
+}
+
+export { cacheRepository };
 // Also export interface for type checking
 export type { ICacheRepository } from '../redis/redis_interface.js';

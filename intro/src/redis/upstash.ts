@@ -14,12 +14,19 @@ export class RedisCacheRepository implements ICacheRepository {
   constructor() {
     this.client = createClient({
       url: process.env.REDIS_URL || "redis://localhost:6379",
+      // Configure for Upstash compatibility
+      socket: {
+        reconnectStrategy: false,
+      },
     });
 
-    this.client.on("error", (err: any) =>
-      console.error("Redis Client Error", err)
-    );
-    this.connect();
+    this.client.on("error", (err: any) => {
+      // Suppress CLIENT SETINFO errors for Upstash compatibility
+      if (!err.message?.includes('CLIENT SETINFO')) {
+        console.error("Redis Client Error", err);
+      }
+    });
+    // Don't auto-connect in constructor
   }
   /**
    * Get all keys matching a specific pattern
@@ -53,12 +60,20 @@ export class RedisCacheRepository implements ICacheRepository {
   }
 
   private async connect(): Promise<void> {
-    if (!this.connected) {
+    if (!this.connected && !this.client.isOpen) {
       try {
         await this.client.connect();
         this.connected = true;
+        console.log("Successfully connected to Redis");
       } catch (error) {
-        console.error("Failed to connect to Redis:", error);
+        // Check if error is about socket already opened
+        if (error instanceof Error && error.message.includes('Socket already opened')) {
+          this.connected = true; // Assume we're already connected
+          console.log("Redis socket already connected");
+        } else {
+          console.error("Failed to connect to Redis:", error);
+          this.connected = false;
+        }
       }
     }
   }
@@ -209,5 +224,27 @@ public async setQueryResult(key: string, data: any): Promise<void> {
     } catch (error) {
       console.error("Redis flush error:", error);
     }
+  }
+
+  /**
+   * Disconnect from Redis
+   */
+  public async disconnect(): Promise<void> {
+    if (this.connected && this.client.isOpen) {
+      try {
+        await this.client.disconnect();
+        this.connected = false;
+        console.log("Disconnected from Redis");
+      } catch (error) {
+        console.error("Error disconnecting from Redis:", error);
+      }
+    }
+  }
+
+  /**
+   * Check if Redis is connected
+   */
+  public isConnected(): boolean {
+    return this.connected && this.client.isOpen;
   }
 }
