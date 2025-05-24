@@ -1,6 +1,6 @@
-import { InMemoryCacheRepository } from '../redis/in-memory.js';
-import { ICacheRepository } from '../redis/redis_interface.js';
-import { RedisCacheRepository } from '../redis/upstash.js';
+import { InMemoryCacheRepository } from './in-memory.js';
+import { ICacheRepository } from './redis_interface.js';
+import { RedisCacheRepository } from './upstash.js';
 
 // Define the available cache implementation types
 export type CacheImplementation = 'memory' | 'redis';

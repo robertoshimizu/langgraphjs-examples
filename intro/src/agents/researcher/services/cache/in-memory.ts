@@ -1,4 +1,4 @@
-import { Article, Sumarios } from "../agent_utils/types.js";
+import { Article } from "../../types/types.js";
 import { ICacheRepository } from "./redis_interface.js";
 
 /**

@@ -1,7 +1,7 @@
 import { createClient, RedisClientType } from "redis";
 import { createHash } from "crypto";
 import { ICacheRepository } from "./redis_interface.js";
-import { Article, Sumarios } from "../agent_utils/types.js";
+import { Article } from "../../types/types.js";
 
 /**
  * Redis implementation of Cache Repository

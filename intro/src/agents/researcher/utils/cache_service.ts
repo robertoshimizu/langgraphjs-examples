@@ -1,5 +1,5 @@
-import { cacheRepository } from "./cache_config.js";
-import { Article, Sumarios } from "./types.js";
+import { cacheRepository } from "../services/cache/cache_config.js";
+import { Article, Sumarios } from "../types/types.js";
 
 /**
  * Cache service that uses the repository pattern

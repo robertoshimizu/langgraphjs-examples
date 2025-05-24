@@ -5,8 +5,8 @@ import { ChatPromptTemplate } from '@langchain/core/prompts'
 import { StringOutputParser } from '@langchain/core/output_parsers'
 import { createStuffDocumentsChain } from 'langchain/chains/combine_documents'
 import { Document } from '@langchain/core/documents'
-import { Pack, pack } from '../data/pack.js'
-import { llm } from '../agent_utils/llm_models.js'
+import { Pack, pack } from '../../data/pack.js'
+import { llm } from '../../../shared/lib/llm_models.js'
 
 interface PackRagProps {
   signsAndsymptoms: string

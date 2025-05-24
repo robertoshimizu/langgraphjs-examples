@@ -1,4 +1,4 @@
-import { SourceConfig } from './types.js'
+import { SourceConfig } from '../types/types.js'
 
 // Tool processor config map
 export const toolSourceConfigs: Record<string, SourceConfig> = {

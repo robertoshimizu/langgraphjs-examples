@@ -3,10 +3,10 @@
   "dockerfile_lines": [],
   "dependencies": ["."],
   "graphs": {
-    "simple_agent": "./src/index.ts:graph",
-    "react_agent": "./src/react_agent.ts:graph",
-    "self_rag_agent": "./src/self-rag_agent.ts:graph",
-    "researcher_agent": "./src/researcher_agent.ts:graph"
+    "simple_agent": "./src/agents/simple/index.ts:graph",
+    "react_agent": "./src/agents/react/react_agent.ts:graph",
+    "self_rag_agent": "./src/agents/self_rag/self-rag_agent.ts:graph",
+    "researcher_agent": "./src/agents/researcher/researcher_agent.ts:graph"
   },
   "env": "../.env"
 }

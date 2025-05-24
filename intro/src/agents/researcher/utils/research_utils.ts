@@ -5,18 +5,18 @@ import { z } from "zod";
 import {
   extractCodeFromUrl,
   webScraper,
-} from "../google_services/web_scraper.js";
-import { Article, ProcessedTool, SourceConfig, Sumarios } from "./types.js";
+} from "../services/google/web_scraper.js";
+import { Article, ProcessedTool, SourceConfig, Sumarios } from "../types/types.js";
 import { PromptTemplate } from "@langchain/core/prompts";
-import { llm } from "./llm_models.js";
-import { google_search } from "../google_services/google_search.js";
+import { llm } from "../../../shared/lib/llm_models.js";
+import { google_search } from "../services/google/google_search.js";
 import { toolSourceConfigs } from "./tools_sources.js";
-import { translateText } from "../google_services/google_translate.js";
+import { translateText } from "../services/google/google_translate.js";
 import { cacheService } from "./cache_service.js";
 import { DynamicStructuredTool, StructuredTool } from "@langchain/core/tools";
 import { logError } from "./error_handling.js";
-import { getRelevantPieces } from "../vectorDb/langchain-inmemory.js";
-import { getAgent } from "../vectorDb/intelli_vector.js";
+import { getRelevantPieces } from "../services/vector/langchain-inmemory.js";
+import { getAgent } from "../services/vector/intelli_vector.js";
 import { tools, toolsByName } from "./medical_tools.js";
 import { AIMessageChunk } from "@langchain/core/messages";
 

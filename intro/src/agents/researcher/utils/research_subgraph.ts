@@ -11,11 +11,11 @@ import { PromptTemplate } from "@langchain/core/prompts";
 import { v4 as uuidv4 } from "uuid";
 
 import { z } from "zod";
-import { llm } from "./llm_models.js";
-import { ProcessedTool, SourceConfig, Sumarios } from "./types.js";
+import { llm } from "../../../shared/lib/llm_models.js";
+import { ProcessedTool, SourceConfig, Sumarios } from "../types/types.js";
 import { processToolWithSources, summarizeArticles } from "./research_utils.js";
 import { logError } from "./error_handling.js";
-import { translateText } from "../google_services/google_translate.js";
+import { translateText } from "../services/google/google_translate.js";
 
 // STATE ANNOTATIONS FOR RESEARCH SUBGRAPH
 const ResearchStateAnnotation = Annotation.Root({
