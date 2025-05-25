@@ -38,23 +38,28 @@ export default function ChatInterface() {
 
   useEffect(() => {
     const initializeChat = async () => {
-      // let assistantId = getCookie(ASSISTANT_ID_COOKIE);
-      // if (!assistantId) {
-      //   const assistant = await createAssistant(
-      //     process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID as string
-      //   );
-      //   assistantId = assistant.assistant_id as string;
-      //   // setCookie(ASSISTANT_ID_COOKIE, assistantId);
-      //   setAssistantId(assistantId);
-      // }
-
+      console.log("Initializing chat...");
+      // Check if the assistant ID is already set in the cookie
+      let assistantId = getCookie(ASSISTANT_ID_COOKIE);
+      console.log("Assistant ID from cookie:", assistantId);
+      if (!assistantId) {
+        console.log("Creating new assistant...");
+        console.log('process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID', process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID)
         const assistant = await createAssistant(
           process.env.NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID as string
         );
-
-      const assistantId = assistant.assistant_id as string;
+        // make a fallback if assistant fails to be created
+        if (!assistant) {
+          console.error("Failed to create assistant");
+          return;
+        }
+        console.log("Assistant created:", assistant);
+        assistantId = assistant.assistant_id as string;
         // setCookie(ASSISTANT_ID_COOKIE, assistantId);
-      setAssistantId(assistantId);
+        setAssistantId(assistantId);
+      }
+
+      
 
       const { thread_id } = await createThread();
       setThreadId(thread_id);
