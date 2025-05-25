@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@langchain/langgraph-sdk':
-        specifier: ^0.0.8
-        version: 0.0.8
+        specifier: ^0.0.17
+        version: 0.0.17
       js-cookie:
         specifier: ^3.0.5
         version: 3.0.5
@@ -142,8 +142,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@langchain/langgraph-sdk@0.0.8':
-    resolution: {integrity: sha512-ogpfRJum2KYhMXqP8CoA1tN8HlX5+gcnWHNRJiFy2/119jGRTtvPyBO6M3Uj2mtOkPSgQQP/Ova4DOQXKygkXw==}
+  '@langchain/langgraph-sdk@0.0.17':
+    resolution: {integrity: sha512-Cf9041SUSrVqw0hxZ8HgLSr3kIF2VtaMdyCN9peYSBmpbx12P9/YLmy3w5PRXXDYZAkLG2u4HyFwGSBOFXUtIg==}
 
   '@napi-rs/wasm-runtime@0.2.10':
     resolution: {integrity: sha512-bCsCyeZEwVErsGmyPNSzwfwFn4OdxBj0mmv6hOFucB/k81Ojdu68RbZdxYsRQUPc9l6SU5F/cG+bXgWs3oUgsQ==}
@@ -860,10 +860,6 @@ packages:
 
   eventemitter3@4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
-
-  eventsource-parser@1.1.2:
-    resolution: {integrity: sha512-v0eOBUbiaFojBu2s2NPBfYUoRR9GjcDNvCXVaqEf5vVfpIAh9f8RCo4vXTP8c63QRKCFwoLpMpTdPwwhEKVgzA==}
-    engines: {node: '>=14.18'}
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
@@ -2211,10 +2207,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@langchain/langgraph-sdk@0.0.8':
+  '@langchain/langgraph-sdk@0.0.17':
     dependencies:
       '@types/json-schema': 7.0.15
-      eventsource-parser: 1.1.2
       p-queue: 6.6.2
       p-retry: 4.6.2
       uuid: 9.0.1
@@ -3036,8 +3031,6 @@ snapshots:
   esutils@2.0.3: {}
 
   eventemitter3@4.0.7: {}
-
-  eventsource-parser@1.1.2: {}
 
   extend@3.0.2: {}
 

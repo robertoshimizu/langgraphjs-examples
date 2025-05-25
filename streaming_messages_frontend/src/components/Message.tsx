@@ -3,6 +3,7 @@ import ToolCall from "./ToolCall";
 import { ToolCall as ToolCallType } from "../types";
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 // Throws build errors if we try to import this normally
 const ReactJson = dynamic(() => import("react-json-view"), { ssr: false });
@@ -98,9 +99,11 @@ export default function Message({
       }`}
     >
       {isBot && (
-        <img
+        <Image
           src="/logo.jpeg"
           alt="Bot Icon"
+          width={32}
+          height={32}
           className="absolute left-0 top-4 w-8 h-8 rounded-full"
           style={{ transform: "translateX(-120%)" }}
         />

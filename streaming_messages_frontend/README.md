@@ -10,7 +10,7 @@ To change the streaming type, click on the settings (⚙️) icon in the top rig
 To setup the project, install the dependencies:
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ## Environment variables

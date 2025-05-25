@@ -1,9 +1,13 @@
+import Image from "next/image";
+
 export default function SkeletonMessage() {
   return (
     <div className="flex justify-start mb-4 relative">
-      <img
+      <Image
         src="/logo.jpeg"
         alt="Bot Icon"
+        width={32}
+        height={32}
         className="absolute left-0 top-4 w-8 h-8 rounded-full"
         style={{ transform: "translateX(-120%)" }}
       />

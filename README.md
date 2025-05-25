@@ -3,6 +3,56 @@
 This repository contains a series of example TypeScript projects which implement LangGraph.js agents.
 Each directory focuses on a different problem which LangGraph.js aims to solve/enable solutions for.
 
+## 🚨 CRITICAL REMINDER FOR FUTURE MIGRATIONS 🚨
+
+**⚠️ BEFORE MAKING ANY CHANGES - READ THIS CAREFULLY ⚠️**
+
+### Migration Success Principles (Applied Successfully 2025-01-25)
+
+1. **🔍 DISCOVERY & PLANNING PHASE - MANDATORY FIRST STEP**
+   - **Get acquainted with the codebase** - Read files, understand structure, scan dependencies
+   - **Think carefully about what needs to be done** - Understand user's exact request and scope
+   - **Layout a detailed plan for approval** - Present clear migration strategy with priorities
+   - **NEVER start building until user approves the plan** - Alignment prevents wasted work
+   - Example: "Scan directory → Assess issues → Present plan → Get approval → Execute"
+
+2. **📋 ALWAYS CREATE DETAILED TODO LISTS**
+   - Break down tasks into specific, actionable items
+   - Track progress step by step
+   - Mark completion immediately after each task
+
+3. **🎯 AVOID SCOPE CREEP AT ALL COSTS**
+   - Focus ONLY on the stated migration goal (e.g., ESLint v9)
+   - DO NOT upgrade major frameworks unless absolutely necessary
+   - Research upgrade guides BEFORE committing to version bumps
+   - Example: Next.js 15 + React 19 = MASSIVE breaking changes, avoid!
+
+4. **🔍 DEEP DIVE RESEARCH FIRST**
+   - Check compatibility matrices between packages
+   - Read upgrade guides thoroughly (Next.js, Tailwind, etc.)
+   - Test with small changes before major version bumps
+   - When in doubt, keep current stable versions
+
+5. **🚀 STEP-BY-STEP EXECUTION**
+   - One change at a time
+   - Test after each significant change
+   - Build → Lint → Test at each milestone
+   - Fix issues immediately before proceeding
+
+6. **💡 SMART COMPATIBILITY DECISIONS**
+   - ESLint v9 + Next.js 14.2.7 = INCOMPATIBLE (learned this!)
+   - Always check peer dependency warnings
+   - Use package manager lock files as safety nets
+   - Rollback confidently when needed
+
+7. **✅ COMPREHENSIVE VALIDATION**
+   - `pnpm build` must pass cleanly
+   - `pnpm lint` must show no errors
+   - Dev servers must start without issues
+   - Update documentation consistently
+
+**Result: 4/5 projects successfully migrated with ZERO breaking changes!**
+
 ## Prerequisites
 
 The following projects all use [LangSmith](https://smith.langchain.com/), LangGraph [Studio](https://github.com/langchain-ai/langgraph-studio) and [Cloud](https://langchain-ai.github.io/langgraph/cloud/), as well as the [LangGraph.js](https://langchain-ai.github.io/langgraphjs/) and [LangChain.js](https://js.langchain.com/v0.2/docs/introduction/) libraries.
@@ -147,7 +197,7 @@ After the package upgrades, **LangGraph Studio now requires explicit JSON messag
 - ✅ **human_in_the_loop/**: Migrated and tested
 - ⏳ **stockbroker/**: Pending  
 - ✅ **streaming_messages/**: Migrated and tested
-- ⏳ **streaming_messages_frontend/**: Pending
+- ✅ **streaming_messages_frontend/**: Migrated and tested
 
 ### Notes
 
