@@ -1,8 +1,16 @@
+interface StreamMessage {
+  type?: string;
+  content?: string;
+  tool_calls?: Array<unknown>;
+}
+
+interface StreamResponse {
+  event: string;
+  data: StreamMessage[] | unknown;
+}
+
 export const logMessageEvent = (
-  response: {
-    event: string;
-    data: any;
-  },
+  response: StreamResponse,
   extra: {
     toolCallLogged: boolean;
     contentLogged: boolean;
@@ -18,7 +26,7 @@ export const logMessageEvent = (
     console.log("Non message event:", event);
     console.log("\n---\n");
   } else {
-    data.forEach((msg: any) => {
+    (data as StreamMessage[]).forEach((msg) => {
       if (!msg.content && msg.tool_calls?.length) {
         if (!toolCallLogged) {
           console.log("\n---TOOL CALL---\n");
@@ -62,7 +70,7 @@ export const logMessageEvent = (
   };
 };
 
-export const logUpdateEvent = (response: { event: string; data: any }) => {
+export const logUpdateEvent = (response: { event: string; data: Record<string, unknown> }) => {
   const { event, data } = response;
   if (event !== "updates") {
     console.log("Event: ", event);
@@ -70,10 +78,10 @@ export const logUpdateEvent = (response: { event: string; data: any }) => {
   }
   const node = Object.keys(data)[0];
   const nodeReturnData = data[node];
-  if (!("messages" in nodeReturnData)) {
+  if (typeof nodeReturnData !== 'object' || nodeReturnData === null || !("messages" in nodeReturnData)) {
     return;
   }
-  const { messages } = nodeReturnData;
+  const { messages } = nodeReturnData as { messages: StreamMessage[] };
   console.log("\nUpdate from node:", node);
   logMessageEvent(
     {
@@ -87,16 +95,16 @@ export const logUpdateEvent = (response: { event: string; data: any }) => {
   );
 };
 
-export const logValuesEvent = (response: { event: string; data: any }) => {
+export const logValuesEvent = (response: { event: string; data: Record<string, unknown> }) => {
   const { event, data } = response;
   if (event !== "values") {
     console.log("Event: ", event);
     return;
   }
-  if (!("messages" in data)) {
+  if (typeof data !== 'object' || data === null || !("messages" in data)) {
     return;
   }
-  const { messages } = data;
+  const { messages } = data as { messages: StreamMessage[] };
   console.log("\n---NEW VALUES---\n");
   logMessageEvent(
     {

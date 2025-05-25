@@ -146,7 +146,7 @@ After the package upgrades, **LangGraph Studio now requires explicit JSON messag
 - ✅ **intro/**: Migrated and tested
 - ✅ **human_in_the_loop/**: Migrated and tested
 - ⏳ **stockbroker/**: Pending  
-- ⏳ **streaming_messages/**: Pending
+- ✅ **streaming_messages/**: Migrated and tested
 - ⏳ **streaming_messages_frontend/**: Pending
 
 ### Notes

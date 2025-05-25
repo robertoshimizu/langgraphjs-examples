@@ -65,3 +65,5 @@ package-lock.json
 dist
 .turbo
 .env
+# LangGraph API
+.langgraph_api

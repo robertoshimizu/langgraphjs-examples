@@ -16,7 +16,7 @@ The `langgraph_sdk` contains code to invoke a deployed LangGraph Cloud instance 
 To setup the streaming message types project, install the dependencies:
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ## Environment variables
@@ -159,8 +159,8 @@ Each of the examples in this project has a corresponding script which can be use
 The following scripts are available:
 
 ```bash
-yarn start:events
-yarn start:messages
-yarn start:updates
-yarn start:values
+pnpm start:events
+pnpm start:messages
+pnpm start:updates
+pnpm start:values
 ```
